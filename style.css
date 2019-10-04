@@ -1,0 +1,260 @@
+@import "./node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+body {
+    font-family: 'Kanit', sans-serif;
+    padding-top: 20px;
+}
+
+.full-screen {
+    padding: 10rem 0;
+}
+
+.small-text {
+    color: #5b5b5b;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 50px;
+    letter-spacing: 0.2px;
+  }
+
+.navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999999;
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+
+.navbar[class*="-unpinned"] {
+    transform: translate(0, -150%);
+  }
+  .navbar[class*="-pinned"] {
+    transform: translate(0, 0);
+  }
+  .navbar[class*="headroom--not-top"] {
+    background: #ffffff;
+    border-bottom: 1px solid #f0f0f0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 1.3em;
+}
+
+.navbar-brand img {
+    width: 50px;
+    margin: 10px;
+    padding-bottom: 33px; 
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding: 0 20px;
+}
+
+.nav-link span {
+    font-size: 1em;
+  }
+
+.navbar-light .navbar-toggler-icon {
+    background: none;
+  }
+  
+  .navbar-toggler {
+    border: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    outline: none;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .navbar-toggler:focus {
+    outline: none;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:first-child {
+    transform: rotate(45deg);
+    top: 6px;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:nth-child(2) {
+    display: none;
+  }
+  .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:last-child {
+    transform: rotate(-45deg);
+    bottom: 1px;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background: #212121;
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 5px 0;
+    transition: all 0.4s ease;
+    position: relative;
+  }
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    font-weight: normal;
+    text-decoration: none !important;
+    transition: all 0.4s ease;
+}
+a:hover {
+    color: #ffc200 !important;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #5b5b5b;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    letter-spacing: -1px;
+  }
+  
+  h1 {
+    color: #212121;
+    font-size: 2.8em;
+    margin: 24px 0;
+  }
+  
+  h2 {
+    color: #353535;
+    font-size: 2.4em;
+    font-weight: bold;
+  }
+  
+  h3 {
+    color: #484848;
+  }
+  
+  h3,
+  b, strong {
+    font-weight: bold;
+  }
+
+.animated {
+    position: relative;
+  }
+  
+  .animated-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 5px;
+    min-width: 260px;
+    position: relative;
+  }
+  
+  .animated-item {
+    color: #ffc200;
+  }
+  
+  .animated-item {
+    font-size: 38px;
+    line-height: inherit;
+    display: block;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    animation: BottomTotop 6s linear infinite 0s;
+  }
+  .animated-item:nth-child(2n+2) {
+    animation-delay: 2s;
+  }
+  .animated-item:nth-child(3n+3) {
+    animation-delay: 4s;
+  }
+  
+  @keyframes BottomTotop {
+    0% {
+      opacity: 0;
+    }
+    5% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    10% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    25% {
+      opacity: 1;
+      transform: translateY(0px);
+    }
+    30% {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    80% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+@media (max-width: 767px) {
+  
+    .navbar-collapse {
+      background: #ffffff;
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  
+    .navbar-expand-sm .navbar-nav .nav-link {
+      padding: 3px 20px;
+    }
+
+    h1 {
+        font-size: 2.4em;
+      }
+    
+      h2 {
+        font-size: 2em;
+      }
+    
+      .animated-item {
+        font-size: 28px;
+      }
+}
+
+@media (max-width: 320px) {
+    .mobile-block {
+        display: block;
+      }
+    
+      .about-text {
+        text-align: center;
+      }
+
+      .animated-text {
+        margin-top: 0;
+      }
+    
+      .full-screen {
+        padding: 4rem 0;
+      }
+    
+}
