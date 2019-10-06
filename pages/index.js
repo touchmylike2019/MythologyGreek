@@ -8,7 +8,7 @@ const Home = () => {
                     <div className="row">
                         <div className="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                             <div className="about-text">
-                                <small className="small-text">ยินดีต้อนรับสู่ <span className="mobile-block">website ตำนานเทพกรีก</span></small>
+                                <small className="small-text">ยินดีต้อนรับสู่เว็ปไซต์ <span className="mobile-block">ตำนานเทพกรีก - Mythology Greek</span></small>
                                 <h1 className="animated animated-text">
                                     <span className="mr-2">หัวข้อที่น่าสนใจ</span>
                                     <div className="animated-info">
@@ -17,12 +17,12 @@ const Home = () => {
                                         <span className="animated-item">ตำนานดวงดาวและราศี</span>
                                     </div>
                                 </h1>
-                                <p>Building a successful product is a challenge. I am highly energetic in user experience design, interfaces and web development.</p>
+                                <p className="mt-5">ตำนานเทพเจ้ากรีก เป็นเรื่องปรัมปราที่เกี่ยวข้องกับเทพเจ้า ในศาสนากรีซโบราณ เพื่อเป็นวิถีปฏิบัติทางศาสนา โดยอธิบายถึงการกำเนิดของโลก และการใช้ชีวิต ผ่านการผจญภัยของเหล่าเทพ เทพี วีรบุรุษ และวีรสตรี รวมถึงสิ่งมีชีวิตอื่น ๆ ซึ่งเผยแพร่ผ่านทางบทกวีในแบบปากต่อปาก และกลายเป็นที่รู้จักกันอย่างแพร่หลายในวรรณกรรมกรีก</p>
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-12 col-12">
                             <div className="about-image svg">
-                                <img src="./static/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg image" />
+                                <img src="./static/images/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg image" />
                             </div>
                         </div>
                     </div>
