@@ -4,7 +4,7 @@ import Link from 'next/link'
 const Navbar = () => {
     const [active, isActive] = useState(false)
     return (
-        <nav className="navbar navbar-expand-sm navbar-light">
+        <nav className="navbar navbar-expand-sm navbar-light bg-white">
             <div className="container">
                 <Link href="/"><a className="navbar-brand"><img src="../static/images/poseidon.png" />Mythology greek</a></Link>
                 <button onClick={() => isActive(!active)} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={String(active)}

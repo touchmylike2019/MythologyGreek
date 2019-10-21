@@ -1,54 +1,35 @@
-import Layout from '../components/Layout'
-
+import "../style.css"
+import Layout from "../components/Layout"
 const Document = () => {
     return (
-        <Layout>
-            <section className="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-                <div className="container">
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">1. ปฐมตำนานแห่งจักรวาล</small>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">2. โอลิมปัส สวรรค์แห่งเทพเจ้า</small>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">3. ตำนานดวงดาวและราศี</small>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">4. เทพเจ้ากับธรรมชาติ</small>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">5. ตำนานแห่งมหาสมุทร</small>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">6. ความเชื่อในดินแดนปรโลก และ เรื่องราวของคนบาป</small>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">7. อสูรกาย + วีรบุรุษ</small>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="about-text">
-                            <small className="small-text">8. เทพเจ้ากับมนุษย์</small>
-                        </div>
-                    </div>
+        <Layout page="document">
+            <div className="container">
+                <div className="content">
+                    <h3>ปรัมปรากรีก (กรีกโบราณ: ΜΥΘΟΛΟΓΊΑ ΕΛΛΗΝΙΚΉ)</h3>
+                    <p className="ml-3">เป็นเรื่องปรัมปราของอารยธรรมกรีกโบราณ
+                        ซึ่งมีเนื้อหาเกี่ยวกับนิทานปรัมปราและตำนานที่เกี่ยวข้องกับเทพเจ้า, วีรบุรุษ,
+                        ธรรมชาติของโลก รวมถึงจุดกำเนิดและความสำคัญของขนบ
+                        คติและจารีตพิธีในทางศาสนาของชาวกรีกโบราณ
+                        เรื่องปรัมปรากรีกเป็นส่วนหนึ่งของศาสนาในกรีซโบราณ
+                        นักวิชาการสมัยใหม่มักอ้างถึงและศึกษาเรื่องปรัมปราเหล่านี้
+                        เพื่อที่จะทราบเกี่ยวกับสถาบันทางศาสนา, สถาบันทางการเมืองในกรีซโบราณ,
+                        อารยธรรมของชาวกรีก และเพื่อเพิ่มความเข้าใจในธรรมชาติของการสร้างตำนานประมวลเรื่องปรัมปราขึ้น</p>
+                    <p className="ml-3">รวบรวมขึ้นจากเรื่องเล่าและศิลปะที่แสดงออกในวัฒนธรรมกรีก เช่น
+                        การระบายสีแจกันและของแก้บน ตำนานกรีกอธิบายถึงการถือกำเนิดของโลก
+                        และรายละเอียดของเรื่องราวในชีวิต และการผจญภัยของบรรดาเทพเจ้า เทพธิดา
+                        วีรบุรุษ วีรสตรี และสิ่งมีชีวิตในตำนานอื่น ๆ
+                        ซึ่งเรื่องราวเหล่านี้ในตอนแรกเป็นเพียงการสืบทอดผ่านบทกวีตามประเพณีมุขปาฐะเ
+                        ท่านั้น ซึ่งอาจสืบย้อนหลังไปได้ถึงสมัยไมนอส และสมัยไมซีนี ตั้งแต่ศตวรรษที่ 18
+                        ก่อนค.ศ.</p>
+                    <p className="mt-3">ปรัมปรากรีกมีอิทธิพลอย่างมากต่อวัฒนธรรม ศิลปะ
+                        และวรรณกรรมของอารยธรรมตะวันตก รวมถึงมรดกและภาษาทางตะวันตกด้วย
+                        กวีและศิลปินมากมายนับแต่ยุคโบราณจนถึงปัจจุบันได้รับแรงบันดาลใจจากประมวลเ
+                        รื่องปรัมปรากรีก
+                        และได้คิดค้นนัยยะร่วมสมัยกับการตีความใหม่ที่สัมพันธ์กับตำนานปรัมปราเหล่านี้</p>
+                        <img src="./static/images/documents/Aether.jpg" />
                 </div>
-            </section>
+            </div>
         </Layout>
-
     )
 }
 

@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 const Home = () => {
     return (
-        <Layout>
+        <Layout page="index">
             <section className="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
                 <div className="container">
                     <div className="row">
