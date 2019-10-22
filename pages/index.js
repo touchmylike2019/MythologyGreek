@@ -22,7 +22,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-5 col-md-12 col-12">
                             <div className="about-image svg">
-                                <img src="./static/images/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg image" />
+                                <img src="./static/images/dog.jpg" className="img-fluid" alt="svg image" />
                             </div>
                         </div>
                     </div>

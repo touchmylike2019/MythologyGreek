@@ -153,6 +153,11 @@ b, strong {
     font-weight: bold;
 }
 
+.img-fluid{
+  height: 420px;
+  width: 380px;
+}
+
 .animated {
     position: relative;
 }
