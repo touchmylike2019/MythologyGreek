@@ -10,7 +10,8 @@ const Layout = ({ page, children }) => {
                 body{
                     margin: 0;
                     padding: 0;
-                    font-family: 'Kanit';
+                    font-family: 'Mali', cursive;
+                  
                 }
             `}</style>
         </div>
