@@ -156,7 +156,12 @@ b, strong {
 .img-fluid{
   height: 420px;
   width: 380px;
+  border-radius: 5%;
 }
+
+/* .carousel-control-next {
+    width: 100%;
+} */
 
 .animated {
     position: relative;
@@ -169,9 +174,15 @@ b, strong {
     min-width: 260px;
     position: relative;
 }
-  
-.animated-item {
+
+.mr-2 {
     color: #ffc200;
+}
+
+.animated-item{
+    background: linear-gradient(330deg, #e05252 0%, #99e052 25%, #52e0e0 50%, #9952e0 75%, #e05252 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
   
 .animated-item {
