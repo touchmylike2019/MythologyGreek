@@ -1,11 +1,14 @@
 import Layout from '../components/Layout'
+import ImageCarousel from '../components/ImageCarousel'
+import { Container, Row } from 'reactstrap'
 
 const Home = () => {
+
     return (
         <Layout page="index">
-            <section className="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
-                <div className="container">
-                    <div className="row">
+            <div className="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+                <Container>
+                    <Row>
                         <div className="col-lg-7 col-md-12 col-12 d-flex align-items-center">
                             <div className="about-text">
                                 <small className="small-text">ยินดีต้อนรับสู่เว็ปไซต์ <span className="mobile-block">ตำนานเทพกรีก - Mythology Greek</span></small>
@@ -22,48 +25,27 @@ const Home = () => {
                         </div>
                         <div className="col-lg-5 col-md-12 col-12">
                             <div className="about-image svg">
-                                <img src="./static/images/dog.jpg" className="img-fluid" alt="svg image" />
+                                <img src="./static/images/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg image" />
                             </div>
                         </div>
-                    </div>
-                    <div className="row">
-                        <div className="bd-example w-100 h-100 mt-5">
-                            <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
-                                <ol className="carousel-indicators">
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                                </ol>
-                                <div className="carousel-inner">
-                                    <div className="carousel-item active">
-                                        <img src="./static/images/dog.jpg" className="d-block w-100" alt="..." />
-                                        <div className="carousel-caption d-none d-md-block">
-                                            <h5>First slide label</h5>
-                                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                        </div>
-                                    </div>
-                                    <div className="carousel-item">
-                                        <img src="./static/images/dog.jpg" className="d-block w-100" alt="..." />
-                                        <div className="carousel-caption d-none d-md-block">
-                                            <h5>Third slide label</h5>
-                                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a className="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span className="sr-only">Previous</span>
-                                </a>
-                                <a className="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span className="sr-only">Next</span>
-                                </a>
-                            </div>
-                        </div>
+                    </Row>
+                </Container>
+            </div>
 
+            <div className="mt-1">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-11 text-center mx-auto col-12">
+                            <h2>เนื้อเรื่องที่น่าสนใจ</h2>
+                            <ImageCarousel />
+                        </div>
                     </div>
                 </div>
-            </section>
+            </div>
+
+            <div className="footer">
+                <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a><br />Copyright &copy; 2019 Evan You</p>
+            </div>
         </Layout>
 
     )

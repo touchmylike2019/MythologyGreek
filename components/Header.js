@@ -1,9 +1,7 @@
 import React, { Fragment } from 'react'
 import Head from 'next/head'
-import Navbar from './Navbar'
-import Sidebar from './Sidebar'
 
-const Header = ({ page, name }) => {
+const Header = ({ name }) => {
     return (
         <Fragment>
             <Head>
@@ -13,11 +11,10 @@ const Header = ({ page, name }) => {
                 <meta data-n-head="true" name="article:author" content="Mythology Greek" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/static/images/apollo.ico" />
-                <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet"></link>
-                {/* <link href="https://fonts.googleapis.com/css?family=Kanit&display=swap" rel="stylesheet" /> */}
-                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" crossorigin="anonymous"></link>
+                {/* <link rel="stylesheet" href="/static/css/page.css"/> */}
+                <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet" />
+                <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" rel="stylesheet" crossorigin="anonymous" />
             </Head>
-            {page === "index" ? <Navbar /> : <Sidebar />}
         </Fragment>
     )
 }

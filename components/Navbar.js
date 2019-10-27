@@ -13,8 +13,8 @@ const Navbar = () => {
                     <span className="navbar-toggler-icon"></span>
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <div className={active === false ? "collapse navbar-collapse" : "collapse navbar-collapse show"} id="navbarNav">
-                    <ul className="navbar-nav mx-auto">
+                <div className={active === false ? "collapse navbar-collapse" : "collapse navbar-collapse show"}>
+                    <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
                             <Link href="/"><a className="nav-link"><span data-hover="About">หน้าหลัก</span></a></Link>
                         </li>
