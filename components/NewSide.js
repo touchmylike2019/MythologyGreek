@@ -21,7 +21,7 @@ const NewSide = () => {
                             <li>เอกสาร</li>
                         </ul>
                         <li>
-                            <Link href="/articles/mythology"><a className="sidebar-link">Mythology Greek</a></Link>
+                            <Link href="/document"><a className="sidebar-link">Mythology Greek</a></Link>
                         </li>
                         <One />
                         <Two />
