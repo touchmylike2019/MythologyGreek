@@ -1,7 +1,7 @@
 const Ten = () => {
     return (
         <li>
-            <a href="/v2/guide/index.html" className="sidebar-link current">อสูรกาย</a>
+            <p className="sidebar-link current">อสูรกาย</p>
             <ul className="menu-sub">
                 <li>
                     <a className="section-link" data-scroll="" href="#What-is-Vue-js">

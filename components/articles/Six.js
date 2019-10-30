@@ -1,7 +1,7 @@
 const Six = () => {
     return (
         <li>
-            <a href="/v2/guide/index.html" className="sidebar-link current">ความเชื่อในดินแดนปรโลก</a>
+            <p className="sidebar-link current">ความเชื่อในดินแดนปรโลก</p>
             <ul className="menu-sub">
                 <li>
                     <a className="section-link" data-scroll="" href="#What-is-Vue-js">

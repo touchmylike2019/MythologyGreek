@@ -1,22 +1,24 @@
+import Link from 'next/link'
+
 const Three = () => {
     return (
         <li>
-            <a href="/v2/guide/index.html" className="sidebar-link current">ตำนานแห่งมหาสมุทร</a>
+            <p className="sidebar-link current">ตำนานแห่งมหาสมุทร</p>
             <ul className="menu-sub">
                 <li>
-                    <a className="section-link" data-scroll="" href="#What-is-Vue-js">
+                    <Link href="/articles/ocean/godofocean"><a className="section-link" >
                     เทพแห่งมหาสมุทร
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Getting-Started">
+                    <Link href="/articles/ocean/siren"><a className="section-link" >
                     ไซเรน เสียงเพลงแห่งมรณะ
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/ocean/charybdis-and-scylla"><a className="section-link" >
                     คาริบดิสและซิลลา สองอสุรีแห่งท้องทะเล
-                    </a>
+                    </a></Link>
                 </li>
             </ul>
         </li>

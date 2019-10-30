@@ -1,7 +1,7 @@
 const Eight = () => {
     return (
         <li>
-            <a href="/v2/guide/index.html" className="sidebar-link current">เทพเจ้ากับมนุษย์</a>
+            <p className="sidebar-link current">เทพเจ้ากับมนุษย์</p>
             <ul className="menu-sub">
                 <li>
                     <a className="section-link" data-scroll="" href="#What-is-Vue-js">

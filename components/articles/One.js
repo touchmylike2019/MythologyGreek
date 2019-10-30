@@ -1,27 +1,29 @@
+import Link from "next/link"
+
 const One = () => {
     return (
         <li>
-            <a href="/v2/guide/index.html" className="sidebar-link current">ปฐมตำนานแห่งจักรวาล</a>
+            <p className="sidebar-link current">ปฐมตำนานแห่งจักรวาล</p>
             <ul className="menu-sub">
                 <li>
-                    <a className="section-link" data-scroll="" href="#What-is-Vue-js">
+                    <Link href="/articles/primal-universe/emptiness"><a className="section-link" >
                         เทพเจ้าแห่งความว่างเปล่า
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Getting-Started">
+                    <Link href="/articles/primal-universe/groundandsky"><a className="section-link" >
                         พื้นดินและท้องฟ้า
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/primal-universe/titan"><a className="section-link">
                         ไททัน
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Conditionals-and-Loops">
+                    <Link href="/articles/primal-universe/birthgods"><a className="section-link" data-scroll="" href="#Conditionals-and-Loops">
                         กำเนิดราชาแห่งทวยเทพ
-                    </a>
+                    </a></Link>
                 </li>
             </ul>
         </li>

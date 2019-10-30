@@ -1,0 +1,11 @@
+import DocumentsLayout from '../../../components/DocumentsLayout'
+
+const Taurus = () => {
+    return (
+        <DocumentsLayout>
+            <h3 style={{marginTop: 130}}>ราศีพฤกษภ</h3>
+        </DocumentsLayout>
+    )
+}
+
+export default Taurus

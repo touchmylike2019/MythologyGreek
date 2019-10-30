@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-light bg-white">
             <div className="container">
-                <Link href="/"><a className="navbar-brand"><img src="../static/images/poseidon.png" />Mythology greek</a></Link>
+                <Link href="/"><a className="navbar-brand"><img src="/static/images/poseidon.png" />Mythology greek</a></Link>
                 <button onClick={() => isActive(!active)} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={String(active)}
                     aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

@@ -5,8 +5,8 @@ import { Container, Row } from 'reactstrap'
 const Home = () => {
 
     return (
-        <Layout page="index">
-            <div className="about full-screen d-lg-flex justify-content-center align-items-center" id="about">
+        <Layout>
+            <div className="about full-screen d-lg-flex justify-content-center align-items-center">
                 <Container>
                     <Row>
                         <div className="col-lg-7 col-md-12 col-12 d-flex align-items-center">

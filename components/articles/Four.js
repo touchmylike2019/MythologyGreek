@@ -1,67 +1,69 @@
+import Link from 'next/link'
+
 const Four = () => {
     return (
         <li>
-            <a href="/v2/guide/index.html" className="sidebar-link current">ตำนานราศี</a>
+            <p className="sidebar-link current">ตำนานราศี</p>
             <ul className="menu-sub">
                 <li>
-                    <a className="section-link" data-scroll="" href="#What-is-Vue-js">
+                    <Link href="/articles/zodiac/capricorn"><a className="section-link">
                         ราศีมังกร
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Getting-Started">
+                    <Link href="/articles/zodiac/apuarius"><a className="section-link" >
                         ราศีกุมภ์
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/pisces"><a className="section-link" >
                         ราศีมีน
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/aries"><a className="section-link" >
                         ราศีเมษ
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/taurus"><a className="section-link" >
                         ราศีพฤกษภ
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/gemini"><a className="section-link" >
                         ราศีเมถุน
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/cancer"><a className="section-link" >
                         ราศีกรกฎ
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/leo"><a className="section-link" >
                         ราศีสิงห์
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/virgo"><a className="section-link" >
                         ราศีกันย์
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/libra"><a className="section-link" >
                         ราศีตุลย์
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/scorpio"><a className="section-link" >
                         ราศีพิจิก
-                    </a>
+                    </a></Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
+                    <Link href="/articles/zodiac/sagittarius"><a className="section-link" >
                         ราศีราศีธนู
-                    </a>
+                    </a></Link>
                 </li>
             </ul>
         </li>

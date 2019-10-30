@@ -1,13 +1,14 @@
 import "../style.css"
 import Layout from "../components/Layout"
-import NewSide from "../components/NewSide"
+import Sidebar from "../components/Sidebar"
+import ToggleSide from "../components/ToggleSide"
 const Document = () => {
     return (
         <Layout>
-            <NewSide />
+            <Sidebar />
             <div className="container">
                 <div className="content">
-                    <h3 style={{marginTop: 130}}>ปรัมปรากรีก (กรีกโบราณ: ΜΥΘΟΛΟΓΊΑ ΕΛΛΗΝΙΚΉ)</h3>
+                    <h3 style={{ marginTop: 130, marginLeft: 20 }}>ปรัมปรากรีก (กรีกโบราณ: ΜΥΘΟΛΟΓΊΑ ΕΛΛΗΝΙΚΉ)</h3>
                     <p className="ml-3">เป็นเรื่องปรัมปราของอารยธรรมกรีกโบราณ
                         ซึ่งมีเนื้อหาเกี่ยวกับนิทานปรัมปราและตำนานที่เกี่ยวข้องกับเทพเจ้า, วีรบุรุษ,
                         ธรรมชาติของโลก รวมถึงจุดกำเนิดและความสำคัญของขนบ
@@ -23,7 +24,7 @@ const Document = () => {
                         ซึ่งเรื่องราวเหล่านี้ในตอนแรกเป็นเพียงการสืบทอดผ่านบทกวีตามประเพณีมุขปาฐะเ
                         ท่านั้น ซึ่งอาจสืบย้อนหลังไปได้ถึงสมัยไมนอส และสมัยไมซีนี ตั้งแต่ศตวรรษที่ 18
                         ก่อนค.ศ.</p>
-                        <img src="./static/images/documents/Aether.jpg" />
+                    <img className="img-doc" src="/static/images/documents/Aether.jpg" alt="Aether" />
                 </div>
             </div>
         </Layout>
