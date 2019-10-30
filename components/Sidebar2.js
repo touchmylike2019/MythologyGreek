@@ -1,6 +1,3 @@
-import React, { useEffect } from 'react'
-
-
 import Link from 'next/link'
 import One from './articles/One'
 import Two from './articles/Two'
@@ -13,11 +10,11 @@ import Eight from './articles/Eight'
 import Nine from './articles/Nine'
 import Ten from './articles/Ten'
 
-const Sidebar = ({ value }) => {
+const Sidebar2 = () => {
     
     return (
-        <div className="sidebar mt-3" style={{display: value ? "block" : "none"}}>
-            <div className="sidebar-inner">
+        <div className="sidebar2 mt-3">
+            <div className="sidebar-inner2">
                 <div className="list">
                     <h3>Guide</h3>
                     <ul className="menu-root">
@@ -42,4 +39,4 @@ const Sidebar = ({ value }) => {
     )
 }
 
-export default Sidebar
+export default Sidebar2
