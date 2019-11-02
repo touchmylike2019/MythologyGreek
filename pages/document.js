@@ -20,7 +20,7 @@ const Document = () => {
                 ซึ่งเรื่องราวเหล่านี้ในตอนแรกเป็นเพียงการสืบทอดผ่านบทกวีตามประเพณีมุขปาฐะเ
                 ท่านั้น ซึ่งอาจสืบย้อนหลังไปได้ถึงสมัยไมนอส และสมัยไมซีนี ตั้งแต่ศตวรรษที่ 18
                         ก่อนค.ศ.</p>
-            <img className="img-doc" src="/static/images/documents/Aether.jpg" alt="Aether" />
+            <img className="img-doc" src="/static/images/documents/1.jpg" alt="1" />
         </DocumentsLayout>
     )
 }
