@@ -1,9 +1,10 @@
 {
-  "name": "create-next-example-app",
+  "name": "Mythology_Greek",
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "export": "next export",
+    "start": "next start -p 8081"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",

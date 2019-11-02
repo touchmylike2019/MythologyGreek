@@ -9,7 +9,8 @@ const Layout = ({ children }) => {
         <div>
             <Header name="Mythology greek" />
             <Navbar />
-            { children }
+            {children}
+            
             <style jsx global>{`
                 body{
                     margin: 0;

@@ -1,6 +1,7 @@
 import Layout from '../components/Layout'
 import ImageCarousel from '../components/ImageCarousel'
 import { Container, Row } from 'reactstrap'
+import Footer from '../components/Footer'
 
 const Home = () => {
 
@@ -25,7 +26,7 @@ const Home = () => {
                         </div>
                         <div className="col-lg-5 col-md-12 col-12">
                             <div className="about-image svg">
-                                <img src="./static/images/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg image" />
+                                <img src="/static/images/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg image" />
                             </div>
                         </div>
                     </Row>
@@ -42,10 +43,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-            <div className="footer">
-                <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank" rel="noopener">MIT License</a><br />Copyright &copy; 2019 Evan You</p>
-            </div>
+            <Footer />
         </Layout>
 
     )

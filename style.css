@@ -160,6 +160,12 @@ b, strong {
   border-radius: 5%;
 }
 
+.img-about{
+  height: 380px;
+  width: 350px;
+  border-radius: 5%;
+}
+
 .ml-auto, .mx-auto {
   margin-left: auto!important;
 }
