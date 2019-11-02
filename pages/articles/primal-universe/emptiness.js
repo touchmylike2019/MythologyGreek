@@ -5,7 +5,7 @@ const Emptiness = () => {
         <DocumentsLayout>
             <h3 style={{ marginTop: 130 }}>เทพเจ้าแห่งความว่างเปล่า</h3>
 
-            <img className="img-doc" src="/static/images/documents/Khaos-1.jpg" alt="Khaos-1" />
+            <img className="img-doc" src="/static/images/emptin/Khaos-1.jpg" alt="Khaos-1" />
             <p className="ml-3"> ก่อนที่โลกกลมๆใบนี้จะเกิดขึ้นนั้น มีเทพองค์หนึ่งนามว่า<b> เคออส </b>(อังกฤษ: Chaos หรือ Khaos) เทพเจ้าแห่งความว่างเปล่า
             เป็นสภาพแรกเริ่มของการมีอยู่อันเป็นต้นกำเนิดของเหล่าทวยเทพรุ่นแรก หรืออีกนัยหนึ่งก็คือความว่างเปล่าอันมืดดำของอวกาศ  </p>
 
@@ -18,15 +18,15 @@ const Emptiness = () => {
              โดยสิ่งต่างๆ จะตกไปตามทิศทางต่างๆ ได้รอบ เคออสเป็นพื้นที่ว่างที่แยกโลก (Earth) และท้องฟ้า (Sky) ออกจากกัน และเคออสก็ยังคงสภาพคั่นกลางสองสิ่งนั้น </p>
             <p className="ml-3">และแล้วท่านก็ได้ให้กำเนิดเทพเจ้าทั้ง 2 พระองค์ ซึ่งเป็น<b>เทพเจ้าแห่งความมืด คือ เทพเอเรบัส (Erebus)
             และ เทพีนิกซ์ เทพเจ้าแห่งกลางคืน (Nyx/Night) </b> </p>
-            <img className="img-doc" src="/static/images/documents/Erebus.jpg" alt="Erebus" />
-            <img className="img-doc" src="/static/images/documents/nox3.jpg" alt="nox3" />
+            <img className="img-doc" src="/static/images/emptin/Erebus.jpg" alt="Erebus" />
+            <img className="img-doc" src="/static/images/emptin/nox3.jpg" alt="nox3" />
 
 
             <p className="ml-3">ซึ่งทั้งสองก็ให้กำเนิดพระโอรสพระธิดาเป็น<b>เทพเจ้าแห่งแสงสว่าง คือ
             เทพเอเธอร์ (Aether) และ เทพีเฮเมรา (Hermera) ซึ่งทำให้เห็นทุกอย่าง</b> และเทพเอเรบัส และ เทพีนิกซ์ก็ลาจากพระโอรส พระธิดา
             และฝากหน้าที่อันยิ่งใหญ่ให้แก่พระบุตรทั้งสอง </p>
-            <img className="img-doc" src="/static/images/documents/Aether.jpg" alt="Aether" />
-            <img className="img-doc" src="/static/images/documents/hermera.jpg" alt="hermera" />
+            <img className="img-doc" src="/static/images/emptin/Aether.jpg" alt="Aether" />
+            <img className="img-doc" src="/static/images/emptin/hermera.jpg" alt="hermera" />
             <p className="ml-3">พระองค์ยังมีพระโอรส พระธิดาด้วยกันอีก 8 พระองค์ </p>
             <p className="ml-3"><ul  >
                 <li> เทพโมรอส เทพเจ้าแห่งโชคชะตา</li>
