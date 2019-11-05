@@ -1,27 +1,37 @@
+import Link from 'next/link'
+
 const Eight = () => {
     return (
         <li>
             <p className="sidebar-link current">เทพเจ้ากับมนุษย์</p>
             <ul className="menu-sub">
                 <li>
-                    <a className="section-link" data-scroll="" href="#What-is-Vue-js">
-                        เทพีแห่งเตาไฟผู้คุ้มครองบ้านเรือน
+                    <Link href="/articles/godandhuman/hestia">
+                        <a className="section-link" >
+                            เทพีแห่งเตาไฟผู้คุ้มครองบ้านเรือน
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Getting-Started">
-                        ตำนานความรัก คิวปิดเเละไซคี
+                    <Link href="/articles/godandhuman/cupid">
+                        <a className="section-link" >
+                            ตำนานความรัก คิวปิดเเละไซคี
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        ตำนานโลก “กล่องแพนโดร่า” กล่องแห่งหายนะ
+                    <Link href="/articles/godandhuman/pandora">
+                        <a className="section-link" >
+                            ตำนานโลก “กล่องแพนโดร่า” กล่องแห่งหายนะ
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        ตำนานเฮเลนแห่งทรอย
+                    <Link href="/articles/godandhuman/helen">
+                        <a className="section-link" >
+                            ตำนานเฮเลนแห่งทรอย
                     </a>
+                    </Link>
                 </li>
             </ul>
         </li>
