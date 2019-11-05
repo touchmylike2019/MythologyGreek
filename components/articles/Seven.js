@@ -1,32 +1,44 @@
+import Link from 'next/link'
+
 const Seven = () => {
     return (
         <li>
             <p className="sidebar-link current">เทพเจ้ากับการเกิดธรรมชาติ</p>
             <ul className="menu-sub">
                 <li>
-                    <a className="section-link" data-scroll="" href="#What-is-Vue-js">
-                        ดอกไม้จากตำนานเทพเจ้ากรีก
+                    <Link href="/articles/nature/flower">
+                        <a className="section-link" >
+                            ดอกไม้จากตำนานเทพเจ้ากรีก
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Getting-Started">
-                        เอคโค่
+                    <Link href="/articles/nature/echo">
+                        <a className="section-link" >
+                            เอคโค่
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        ลอเรลมงกุฏของอพอลโล
+                    <Link href="/articles/nature/crown">
+                        <a className="section-link" >
+                            ลอเรลมงกุฏของอพอลโล
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        น้ำพุที่เดลฟี
+                    <Link href="/articles/nature/delphi">
+                        <a className="section-link" >
+                            น้ำพุที่เดลฟี
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        กำเนิดแมงมุม อารัคเน่
+                    <Link href="/articles/nature/arachna">
+                        <a className="section-link" >
+                            กำเนิดแมงมุม อารัคเน่
                     </a>
+                    </Link>
                 </li>
             </ul>
         </li>
