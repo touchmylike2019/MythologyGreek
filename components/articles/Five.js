@@ -1,32 +1,44 @@
+import Link from 'next/link'
+
 const Five = () => {
     return (
         <li>
             <p className="sidebar-link current">ตำนานกลุ่มดาว</p>
             <ul className="menu-sub">
                 <li>
-                    <a className="section-link" data-scroll="" href="#What-is-Vue-js">
-                    กลุ่มดาวนายพราน
-                    </a>
+                    <Link href="/articles/constellations/orion">
+                        <a className="section-link">
+                            กลุ่มดาวนายพราน
+                        </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Getting-Started">
-                    กลุ่มดาววัว
-                    </a>
+                    <Link href="/articles/constellations/taurus">
+                        <a className="section-link" >
+                            กลุ่มดาววัว
+                        </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                    หมู่ดาวหมีน้อยดาวหมีใหญ่
-                    </a>
+                    <Link href="/articles/constellations/ursa">
+                        <a className="section-link" >
+                            หมู่ดาวหมีน้อยดาวหมีใหญ่
+                        </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                    กลุ่มดาวคนแบกงู
-                    </a>
+                    <Link href="/articles/constellations/ophiuchus">
+                        <a className="section-link">
+                            กลุ่มดาวคนแบกงู
+                        </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                    ระบบสุริยะกับเทพเจ้า
-                    </a>
+                    <Link href="/articles/constellations/galaxies">
+                        <a className="section-link" >
+                            ระบบสุริยะกับเทพเจ้า
+                        </a>
+                    </Link> 
                 </li>
             </ul>
         </li>

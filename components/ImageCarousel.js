@@ -6,21 +6,24 @@ import {
     CarouselIndicators,
     CarouselCaption
 } from 'reactstrap'
+import slide1 from '../static/images/test/project-image01.png'
+import slide2 from '../static/images/test/project-image02.png'
+import slide3 from '../static/images/test/project-image03.png'
 
 const ImageCarousel = () => {
     const items = [
         {
-            src: '../static/images/test/project-image01.png',
+            src: `${slide1}`,
             altText: 'Slide 1',
             caption: 'Slide 1'
         },
         {
-            src: '../static/images/test/project-image02.png',
+            src: `${slide2}`,
             altText: 'Slide 2',
             caption: 'Slide 2'
         },
         {
-            src: '../static/images/test/project-image03.png',
+            src: `${slide3}`,
             altText: 'Slide 3',
             caption: 'Slide 3'
         }

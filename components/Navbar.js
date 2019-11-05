@@ -6,7 +6,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-sm navbar-light bg-white">
             <div className="container">
-                <Link href="/"><a className="navbar-brand"><img src="/static/images/poseidon.png" />Mythology greek</a></Link>
+                <Link href="/" ><a className="navbar-brand"><img src="/static/images/poseidon.png" />Mythology greek</a></Link>
                 <button onClick={() => isActive(!active)} className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded={String(active)}
                     aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -16,13 +16,13 @@ const Navbar = () => {
                 <div className={active === false ? "collapse navbar-collapse" : "collapse navbar-collapse show"}>
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link href="/"><a className="nav-link"><span data-hover="About">หน้าหลัก</span></a></Link>
+                            <Link href="/" ><a className="nav-link"><span data-hover="About">หน้าหลัก</span></a></Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/document"><a className="nav-link"><span data-hover="About">เอกสาร</span></a></Link>
+                            <Link href="/document" ><a className="nav-link"><span data-hover="About">เอกสาร</span></a></Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="/about"><a className="nav-link"><span data-hover="Projects">เกี่ยวกับ</span></a></Link>
+                            <Link href="/about" ><a className="nav-link"><span data-hover="Projects">เกี่ยวกับ</span></a></Link>
                         </li>
                     </ul>
                 </div>

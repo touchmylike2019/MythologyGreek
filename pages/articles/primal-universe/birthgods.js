@@ -66,7 +66,7 @@ const Birthgods = () => {
             พระราชวังนี้อยู่สูงเหนือเมฆ และสามารถมองได้ไกลรอบด้าน จอมเทพซูสจึงสามารถมองเหตุการณ์ต่างๆ บนโลกมนุษย์ได้จากพระราชวังแห่งนี้
 </p>
 
-<img className="img-doc" src="/static/images/birthgod/oly3.jpg" alt="oly3" />
+            <img className="img-doc" src="/static/images/birthgod/oly3.jpg" alt="oly3" />
 
         </DocumentsLayout>
     )

@@ -3,12 +3,14 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "next export",
-    "start": "next start -p 8081"
+    "export": "yarn build && next export",
+    "start": "next start"
   },
   "dependencies": {
     "@zeit/next-css": "^1.0.1",
+    "babel-plugin-transform-define": "^2.0.0",
     "bootstrap": "^4.3.1",
+    "file-loader": "^4.2.0",
     "next": "^9.0.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",

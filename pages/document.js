@@ -1,4 +1,3 @@
-import "../style.css"
 import DocumentsLayout from "../components/DocumentsLayout"
 
 const Document = () => {

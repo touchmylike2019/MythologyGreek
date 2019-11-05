@@ -161,9 +161,15 @@ b, strong {
 }
 
 .img-about{
-  height: 380px;
-  width: 350px;
+  height: 280px;
+  width: 260px;
   border-radius: 5%;
+}
+.img-about:hover {
+  -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .ml-auto, .mx-auto {

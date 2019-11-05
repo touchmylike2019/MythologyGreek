@@ -1,7 +1,6 @@
 import Header from './Header'
 import "../style.css"
 import Navbar from './Navbar'
-import Sidebar from './Sidebar'
 
 
 const Layout = ({ children }) => {
