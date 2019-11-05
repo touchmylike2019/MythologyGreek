@@ -1,37 +1,51 @@
+import Link from 'next/link'
+
 const Ten = () => {
     return (
         <li>
             <p className="sidebar-link current">อสูรกาย</p>
             <ul className="menu-sub">
                 <li>
-                    <a className="section-link" data-scroll="" href="#What-is-Vue-js">
-                        ไทฟอน
-                    </a>
+                    <Link href="/articles/monster/typhon">
+                        <a className="section-link" >
+                            ไทฟอน
+                        </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Getting-Started">
-                        สฟริงซ์
+                    <Link href="/articles/monster/sphinx">
+                        <a className="section-link" >
+                            สฟริงซ์
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        ไฮดรา
+                    <Link href="/articles/monster/hydra">
+                        <a className="section-link" >
+                            ไฮดรา
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        ไคเมร่า
+                    <Link href="/articles/monster/chimera">
+                        <a className="section-link" >
+                            ไคเมร่า
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        ไลคาอัน
+                    <Link href="/articles/monster/lycaon">
+                        <a className="section-link" >
+                            ไลคาอัน
                     </a>
+                    </Link>
                 </li>
                 <li>
-                    <a className="section-link" data-scroll="" href="#Declarative-Rendering">
-                        เมดูซ่า
+                    <Link href="/articles/monster/medusa">
+                        <a className="section-link" >
+                            เมดูซ่า
                     </a>
+                    </Link>
                 </li>
             </ul>
         </li>

@@ -1,11 +1,11 @@
 import DocumentsLayout from '../../../components/DocumentsLayout'
 
-const Medusa = () => {
+const Oedipus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{marginTop: 130}}>เมดูซ่า</h3>
+            <h3 style={{marginTop: 130}}>อีดิปัส</h3>
         </DocumentsLayout>
     )
 }
 
-export default Medusa
+export default Oedipus
