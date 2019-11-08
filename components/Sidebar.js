@@ -14,18 +14,14 @@ import Nine from './articles/Nine'
 import Ten from './articles/Ten'
 
 const Sidebar = ({ value }) => {
-    
+
     return (
-        <div className="sidebar mt-3" style={{display: value ? "block" : "none"}}>
+        <div className="sidebar mt-3" style={{ display: value ? "block" : "none" }}>
             <div className="sidebar-inner">
                 <div className="list">
                     <h3>Guide</h3>
-                    <ul className="menu-root">
-                        <li>เอกสาร</li>
-                    </ul>
-                    <li>
-                        <Link href="/document"><a className="sidebar-link">Mythology Greek</a></Link>
-                    </li>
+                    <p className="menu-root">เอกสาร</p>
+                    <Link href="/document"><a className="sidebar-link">Mythology Greek</a></Link>
                     <One />
                     <Two />
                     <Three />

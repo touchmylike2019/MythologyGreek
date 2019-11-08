@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Four = () => {
     return (
-        <li>
+        <div>
             <p className="sidebar-link current">ตำนานราศี</p>
             <ul className="menu-sub">
                 <li>
@@ -62,11 +62,11 @@ const Four = () => {
                 </li>
                 <li>
                     <Link href="/articles/zodiac/sagittarius"><a className="section-link" >
-                        ราศีราศีธนู
+                        ราศีธนู
                     </a></Link>
                 </li>
             </ul>
-        </li>
+        </div>
     )
 }
 

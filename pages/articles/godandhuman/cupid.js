@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Cupid = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ตำนานความรัก คิวปิดเเละไซคี</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ตำนานความรัก คิวปิดเเละไซคี</h3>
             <p className="ml-3">The Great Love Story of Cupid and Psyche</p>
             <img className="img-doc" src="/static/images/human/Cupid00.jpg" alt="Cupid00" />
 

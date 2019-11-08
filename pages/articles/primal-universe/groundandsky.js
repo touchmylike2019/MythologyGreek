@@ -3,7 +3,7 @@ import DocumentsLayout from "../../../components/DocumentsLayout"
 const Groundandsky = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>พื้นดินและท้องฟ้า</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>พื้นดินและท้องฟ้า</h3>
 
 
             <p className="ml-3">กาลเวลาล่วงมาอีกนานนับกัปไม่ถ้วน โลกพิภพจึงผุดขึ้นเป็น<b>ผืนแผ่นกว้างใหญ่ไพศาล เรียกว่า จีอา (Gaea)</b>

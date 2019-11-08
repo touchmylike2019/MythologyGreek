@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Arachna = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>กำเนิดแมงมุม อารัคเน่</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>กำเนิดแมงมุม อารัคเน่</h3>
 
 
             <img className="img-doc" src="/static/images/nature/arachne.jpg" alt="arachne" />

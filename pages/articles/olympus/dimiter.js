@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Dimiter = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพีดิมิเทอร์</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพีดิมิเทอร์</h3>
             <img className="img-doc" src="/static/images/olyp/dt1.jpg" alt="dt1" />
 
 

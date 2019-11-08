@@ -3,7 +3,7 @@ import DocumentsLayout from "../../../components/DocumentsLayout"
 const Emptiness = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพเจ้าแห่งความว่างเปล่า</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพเจ้าแห่งความว่างเปล่า</h3>
 
             <img className="img-doc" src="/static/images/emptin/Khaos-1.jpg" alt="Khaos-1" />
             <p className="ml-3"> ก่อนที่โลกกลมๆใบนี้จะเกิดขึ้นนั้น มีเทพองค์หนึ่งนามว่า<b> เคออส </b>(อังกฤษ: Chaos หรือ Khaos) เทพเจ้าแห่งความว่างเปล่า
@@ -20,28 +20,22 @@ const Emptiness = () => {
             และ เทพีนิกซ์ เทพเจ้าแห่งกลางคืน (Nyx/Night) </b> </p>
             <img className="img-doc" src="/static/images/emptin/Erebus.jpg" alt="Erebus" />
             <img className="img-doc" src="/static/images/emptin/nox3.jpg" alt="nox3" />
-
-
             <p className="ml-3">ซึ่งทั้งสองก็ให้กำเนิดพระโอรสพระธิดาเป็น<b>เทพเจ้าแห่งแสงสว่าง คือ
             เทพเอเธอร์ (Aether) และ เทพีเฮเมรา (Hermera) ซึ่งทำให้เห็นทุกอย่าง</b> และเทพเอเรบัส และ เทพีนิกซ์ก็ลาจากพระโอรส พระธิดา
             และฝากหน้าที่อันยิ่งใหญ่ให้แก่พระบุตรทั้งสอง </p>
             <img className="img-doc" src="/static/images/emptin/Aether.jpg" alt="Aether" />
             <img className="img-doc" src="/static/images/emptin/hermera.jpg" alt="hermera" />
             <p className="ml-3">พระองค์ยังมีพระโอรส พระธิดาด้วยกันอีก 8 พระองค์ </p>
-            <p className="ml-3"><ul  >
-                <li> เทพโมรอส เทพเจ้าแห่งโชคชะตา</li>
-                <li> เทพฮีพโนส เทพเจ้าแห่งนิทรา</li>
-                <li> เทพโอนีอีรัว เทพเจ้าแห่งความฝัน</li>
-                <li> เทพเนเมสิส เทพเจ้าแห่งการล้างแค้น</li>
-                <li> เทพทานาทอส เทพเจ้าแห่งความตาย</li>
-                <li> เทพีเซอร์ เทพีแห่งความตายที่สยดสยอง</li>
-                <li> เทพโมมัส เทพเจ้าแห่งการค้นหาความผิด</li>
-                <li> เทพชารอน ผู้แจวเรือส่งวิญญาณคนตายแห่งลุ่มแม่น้ำสติกซ์</li>
-
-            </ul>
-            </p>
-            <p className="ml-3"> </p>
-
+            <div className="ml-4">
+                <p> - เทพโมรอส เทพเจ้าแห่งโชคชะตา</p>
+                <p> - เทพฮีพโนส เทพเจ้าแห่งนิทรา</p>
+                <p> - เทพโอนีอีรัว เทพเจ้าแห่งความฝัน</p>
+                <p> - เทพเนเมสิส เทพเจ้าแห่งการล้างแค้น</p>
+                <p> - เทพทานาทอส เทพเจ้าแห่งความตาย</p>
+                <p> - เทพีเซอร์ เทพีแห่งความตายที่สยดสยอง</p>
+                <p> - เทพโมมัส เทพเจ้าแห่งการค้นหาความผิด</p>
+                <p> - เทพชารอน ผู้แจวเรือส่งวิญญาณคนตายแห่งลุ่มแม่น้ำสติกซ์</p>
+            </div>
         </DocumentsLayout>
     )
 }

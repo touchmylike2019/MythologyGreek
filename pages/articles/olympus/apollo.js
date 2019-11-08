@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Apollo = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพเจ้าอพอลโล</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพเจ้าอพอลโล</h3>
 
             <p className="ml-3">  อพอลโล (Apollo) เทพคู่แฝดผู้น้องของเทวีอาร์เตมิส คือ<b>เทพครองดวงอาทิตย์ </b>เมื่อนาง แลโตนา มารดาของอพอลโล ถูกกระทำด้วยความหึงของเจ้า
              แม่ฮีรา เพราะเหตุเป็นที่ปฏิพัทธ์เสน่หาของ ซูส ต้องอุ้มครรภ์ หนีงู ไพธอน (Python) ของเจ้าแม่ ซอกซอนไปไม่มีที่จะให้ประสูติบุตรในครรภ์ได้จน ถึงเกาะดีลอส (Delos)

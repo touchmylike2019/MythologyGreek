@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Birthgods = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>กำเนิดราชาแห่งทวยเทพ</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>กำเนิดราชาแห่งทวยเทพ</h3>
 
             <p className="ml-3"> โครนัสครองอำนาจเหนือเหล่าเทพทั้งปวงอยู่ ณ สวรรค์โอลิมปัสเป็นสุขสงบมาแสนนาน
             เป็นยุคสมัยแห่งความยิ่งใหญ่ของเทพไทแทน จนกระทั่งวันหนึ่งพระนางรีอาก็ให้กำเนิดเทพบุตรองค์แรก คำสาปของอูรานอสจอมบิดาก็ผุดขึ้นในความทรงจำของโครนัสทันที

@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Dionysus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{marginTop: 130}}>เทพเจ้าไดอะไนเซิล</h3>
+            <h3 className="text-center" style={{marginTop: 130}}>เทพเจ้าไดอะไนเซิล</h3>
 
             <p className="ml-3">             ไดอะไนเซิส ใน ตำนานเทพเจ้ากรีก “ไดอะไนเซิส” เป็น<b>เทพเจ้าแห่งไวน์ </b>
              ผู้เป็นแรงบันดาลใจของความประเพณีความคลั่งและความปิติอย่างล้นเหลือ (ecstasy) และเป็นเทพองค์ล่าสุดในสิบสองเทพโอลิมปัส 

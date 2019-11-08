@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Olympus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>โอลิมปัสสู่โอลิมปิก</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>โอลิมปัสสู่โอลิมปิก</h3>
 
             <p className="ml-3">โอลิมปัส (Mount Olympus) คือ<b>ยอดเขาที่สูงที่สุดในประเทศกรีซ</b> (สูง 2,917 เมตร) เป็นที่รู้จักกันดีตามตำนานมหากาพย์ของโอดีสซีย์
             ว่าเป็นสถานที่ศักดิ์สิทธิ์ของเหล่าเทพกรีกโบราณ เป็นที่ประทับของ เทพเจ้าสำคัญต่าง ๆ โดยมีชื่อว่า “เทวสภาแห่งโอลิมปัส”

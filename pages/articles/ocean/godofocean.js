@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Godofocean = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพแห่งมหาสมุทร</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพแห่งมหาสมุทร</h3>
 
             
 

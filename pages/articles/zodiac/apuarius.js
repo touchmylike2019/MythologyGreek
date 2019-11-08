@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Apuarius = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ราศีกุมภ์</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ราศีกุมภ์</h3>
             <img className="img-doc" src="/static/images/zodiac/2.jpg" alt="2" />
 
             <p className="ml-3">สัญลักษณ์คือชายถือคนโทใส่น้ำ ชายคนที่ว่าคือแกนิมิด โอรสรูปงามแห่งกษัตริย์เมืองทรอยโดยมีตำนานเล่าว่า

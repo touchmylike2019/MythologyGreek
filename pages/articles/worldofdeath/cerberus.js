@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Cerberus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{marginTop: 130}}>หมาแห่งนรก</h3>
+            <h3 className="text-center" style={{marginTop: 130}}>หมาแห่งนรก</h3>
 
           
  <img className="img-doc" src="/static/images/death/dog.jpg" alt="dog" />

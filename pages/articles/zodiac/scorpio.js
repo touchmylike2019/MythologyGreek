@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Scorpio = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ราศีพิจิก</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ราศีพิจิก</h3>
 
 
             <img className="img-doc" src="/static/images/zodiac/11.jpg" alt="11" />

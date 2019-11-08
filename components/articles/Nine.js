@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Nine = () => {
     return (
-        <li>
+        <div>
             <p className="sidebar-link current">วีรบุรุษ</p>
             <ul className="menu-sub">
                 <li>
@@ -48,7 +48,7 @@ const Nine = () => {
                     </Link>
                 </li>
             </ul>
-        </li>
+        </div>
     )
 }
 

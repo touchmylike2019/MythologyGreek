@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Virgo = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{marginTop: 130}}>ราศีกันย์</h3>
+            <h3 className="text-center" style={{marginTop: 130}}>ราศีกันย์</h3>
 
 
             <img className="img-doc" src="/static/images/zodiac/9.jpg" alt="9" />

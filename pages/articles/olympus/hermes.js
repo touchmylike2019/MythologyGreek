@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Hermes = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพเจ้าเฮอร์เมส</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพเจ้าเฮอร์เมส</h3>
             <p className="ml-3">  เฮอร์มีส  เรียกชื่อในตำนานเทพเจ้าโรมัน ว่า เมอร์คิวรี่
 เป็นเทพผู้คุ้มครองเหล่านักเดินทาง คนเลี้ยงแกะ โจรผู้เร่ร่อน กวี นักกีฬา นักประดิษฐ์ และพ่อค้า อาจเรียกได้ว่า เฮอร์มีสเป็น<b>เทพแห่งการสื่อสาร</b> </p>
             <img className="img-doc" src="/static/images/olyp/Hermes4.jpg" alt="Hermes4" />

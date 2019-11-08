@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Ares = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพเจ้าแอรีส</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพเจ้าแอรีส</h3>
 
             <p className="ml-3">แอรีส  หรือที่ชาวโรมันเรียกว่า มาร์ส (Mars) เป็น<b>เทพเจ้าแห่งสงคราม อาวุธ และชุดเกราะ</b> และ เป็นหนึ่งในสิบสองเทพแห่งโอลิมปัส ด้วย</p>
             <img className="img-doc" src="/static/images/olyp/mar1.jpg" alt="mar1" />

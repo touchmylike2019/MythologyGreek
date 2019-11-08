@@ -21,19 +21,19 @@ const Home = () => {
                                         <span className="animated-item">ตำนานดวงดาวและราศี</span>
                                     </div>
                                 </h1>
-                                <p className="mt-5">ตำนานเทพเจ้ากรีก เป็นเรื่องปรัมปราที่เกี่ยวข้องกับเทพเจ้า ในศาสนากรีซโบราณ เพื่อเป็นวิถีปฏิบัติทางศาสนา โดยอธิบายถึงการกำเนิดของโลก และการใช้ชีวิต ผ่านการผจญภัยของเหล่าเทพ เทพี วีรบุรุษ และวีรสตรี รวมถึงสิ่งมีชีวิตอื่น ๆ ซึ่งเผยแพร่ผ่านทางบทกวีในแบบปากต่อปาก และกลายเป็นที่รู้จักกันอย่างแพร่หลายในวรรณกรรมกรีก</p>
+                                <p className="mt-5">ตำนานกรีกเกี่ยวข้องกับศาสนากรีกโบราณ โดยอธิบายถึงการกำเนิดของโลก และการใช้ชีวิต ผ่านการผจญภัยของเหล่าเทพ เทพี วีรบุรุษ และวีรสตรี รวมถึงสิ่งมีชีวิตอื่น ๆ ซึ่งเผยแพร่ผ่านทางบทกวี</p>
                             </div>
                         </div>
                         <div className="col-lg-5 col-md-12 col-12">
                             <div className="about-image svg">
-                                <img src="/static/images/undraw_software_engineer_lvl5.svg" className="img-fluid" alt="svg image" />
+                                <img src="https://colorlib.com/preview/theme/edumark/img/banner/edu_ilastration.png" className="img-fluid" alt="svg image" />
                             </div>
                         </div>
                     </Row>
                 </Container>
             </div>
 
-            <div className="mt-1">
+            <div className="mt-5">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-11 text-center mx-auto col-12">

@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Ursa = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>หมู่ดาวหมีน้อยดาวหมีใหญ่</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>หมู่ดาวหมีน้อยดาวหมีใหญ่</h3>
 
 
             <img className="img-doc" src="/static/images/constellations/bear.jpg" alt="bear" />

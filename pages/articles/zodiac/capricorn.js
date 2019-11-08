@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Capricorn = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ราศีมังกร</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ราศีมังกร</h3>
             <img className="img-doc" src="/static/images/zodiac/1.jpg" alt="1" />
             <p className="ml-3">เทพซูสมอบหน้าที่ให้แกนิมีด ผู้ถือแก้วน้ำของเหล่าเทพเจ้าเป็นผู้ส่งน้ำไปยังโลก
              โดยเอียงแก้วให้น้ำไหลอย่างไม่ขาดสายกลายเป็นแม่น้ำหลายสายบนโลก รวมทั้งแม่น้ำไนล์ ซึ่งเป็นสถานที่รื่นรมย์ของเทพเจ้าแพน

@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Six = () => {
     return (
-        <li>
+        <div>
             <p className="sidebar-link current">ความเชื่อในดินแดนปรโลก</p>
             <ul className="menu-sub">
                 <li>
@@ -48,7 +48,7 @@ const Six = () => {
                     </Link>
                 </li>
             </ul>
-        </li>
+        </div>
     )
 }
 

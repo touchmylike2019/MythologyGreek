@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Athena = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพีอธีนา</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพีอธีนา</h3>
 
             <p className="ml-3"> เทพีอธีนา <b>เป็นเทพีแห่งปัญญา</b> เนื่องจากเกิดมาจากส่วนหัวของ ซุส ประมุขแห่งเหล่าทวยเทพ
              ในขณะที่กำลังประชุมเหล่าเทพที่เทือกเขาโอลิมปัส เมื่อจู่ ๆ ซูสเกิดปวดศีรษะอย่างรุนแรง จึงได้ให้เฮเฟสตัส เทพแห่งการตีเหล็กใช้ขวานผ่าศีรษะออก

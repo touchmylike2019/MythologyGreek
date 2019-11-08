@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Taurus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ราศีพฤกษภ</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ราศีพฤกษภ</h3>
 
             <img className="img-doc" src="/static/images/zodiac/5.jpg" alt="5" />
 

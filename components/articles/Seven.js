@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const Seven = () => {
     return (
-        <li>
+        <div>
             <p className="sidebar-link current">เทพเจ้ากับการเกิดธรรมชาติ</p>
             <ul className="menu-sub">
                 <li>
@@ -41,7 +41,7 @@ const Seven = () => {
                     </Link>
                 </li>
             </ul>
-        </li>
+        </div>
     )
 }
 

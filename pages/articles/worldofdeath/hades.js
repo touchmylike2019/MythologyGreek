@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Hades = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ฮาเดส</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ฮาเดส</h3>
 
  
             <p className="ml-3">ฮาเดส หรือ เฮดีส (Hades) ชาวโรมันเรียกว่า พลูโต (Pluto) เทพเจ้าผู้ปกครองนรก และโลกหลังความตาย ในตำนานถือได้ว่าเป็นเจ้าแห่งทรัพย์

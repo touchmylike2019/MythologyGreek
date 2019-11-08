@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Siren = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ไซเรน เสียงเพลงแห่งมรณะ</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ไซเรน เสียงเพลงแห่งมรณะ</h3>
             <p className="ml-3">ปีศาจสตรีแห่งตำนานเทพปกรณัมกรีก ผู้มีมนตราแห่งเสียงเพลงเป็นอาวุธร้าย หลอกล่อเหล่ามนุษย์ที่นำเรือผ่านไปยังเกาะอันเป็นถิ่นที่อยู่ของพวกนาง
              โดย<b>หากมนุษย์ผู้ใดที่ได้ยินเสียงเพลงของพวกนางแล้ว จะตกอยู่ในอำนาจมนต์สะกดและไม่อาจคิดสิ่งใด นอกจากมุ่งไปหาเจ้าของเพลงมรณะนี้</b></p>
             <img className="img-doc" src="/static/images/ocean/siren3.jpg" alt="siren3" />

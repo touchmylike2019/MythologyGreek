@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Taurus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>กลุ่มดาววัว</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>กลุ่มดาววัว</h3>
             <img className="img-doc" src="/static/images/constellations/Europa4.jpg" alt="Europa4" />
             <img className="img-doc" src="/static/images/constellations/Europa.jpg" alt="Europa" />
 

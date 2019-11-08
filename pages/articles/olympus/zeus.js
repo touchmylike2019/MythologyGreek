@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Zeus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพเจ้าซุส</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพเจ้าซุส</h3>
 
             <p className="ml-3">                เทพซูส เป็นราชาแห่งทวยเทพ ผู้ปกครองเขา โอลิมปัส (Olympus) และ<b>เทพแห่งท้องฟ้าและฟ้าร้อง</b>ของ
             ตำนานเทพปกรณัมกรีก สัญลักษณ์ประจำพระองค์คือสายฟ้า โคเพศผู้ นกอินทรี และต้นโอ๊ก นามของซีอุสแปลว่าความสว่างของท้องฟ้า

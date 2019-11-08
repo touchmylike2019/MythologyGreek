@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Poseidon = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{marginTop: 130}}>เทพโพไซดอน</h3>
+            <h3 className="text-center" style={{marginTop: 130}}>เทพโพไซดอน</h3>
 
             <p className="ml-3">  โพไซดอน หรือ โพเซดอน หรือ โปเซดอน<b> เทพเจ้าแห่งท้องทะเลและมหาสมุทร</b>
              ผู้ปกครองดินแดนแห่งท้องน้ำ ตั้งแต่แหล่งน้ำจืด เช่น แม่น้ำ ลำคลอง จนถึงใต้บาดาล มีตรีศูเป็นอาวุธ บางตำนานกล่าวว่ามีท่อนล่างเป็นปลา  

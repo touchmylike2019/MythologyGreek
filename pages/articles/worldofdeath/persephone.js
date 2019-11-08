@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Persephone = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ราชินีผู้เลอโฉมแห่งปรโลก</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ราชินีผู้เลอโฉมแห่งปรโลก</h3>
             <img className="img-doc" src="/static/images/death/Persephone7.jpg" alt="Persephone7" />
 
             <p className="ml-3">ครั้งหนึ่งเมื่อเทพฮาเดสได้เสด็จขึ้นมาบนพื้นโลก ได้พบกับเทพีเปอร์เซโฟนี (Persephone) เทพีแห่งฤดูใบไม้ผลิ และเป็นธิดาของ เทพีดิมีเตอร์ เทพีแห่งธัญญาหาร หรือพระแม่โพสพกับมหาเทพซุส ซึ่ง

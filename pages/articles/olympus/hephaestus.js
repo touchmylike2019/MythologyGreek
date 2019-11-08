@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Hephaestus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพเจ้าเฮเฟสตัส</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพเจ้าเฮเฟสตัส</h3>
 
 
             <p className="ml-3"> ฮีเฟสตัส  <b>เทพแห่งไฟ โลหะ และการช่าง</b> เป็นบุตรของซูส กับฮีรา (บางตำราว่าเป็นบุตรของฮีรา ผู้เดียว)

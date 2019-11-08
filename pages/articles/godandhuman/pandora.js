@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Pandora = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ตำนานโลก “กล่องแพนโดร่า” กล่องแห่งหายนะ</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ตำนานโลก “กล่องแพนโดร่า” กล่องแห่งหายนะ</h3>
 
 
             <img className="img-doc" src="/static/images/human/pandora1.jpg" alt="pandora1" />

@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Leo = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{marginTop: 130}}>ราศีสิงห์</h3>
+            <h3 className="text-center" style={{marginTop: 130}}>ราศีสิงห์</h3>
 
          <img className="img-doc" src="/static/images/zodiac/8.jpg" alt="8" />
   <br></br>  <br></br>

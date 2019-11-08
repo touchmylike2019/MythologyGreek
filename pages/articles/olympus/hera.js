@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Hera = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพีเฮรา</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพีเฮรา</h3>
 
             <p className="ml-3">   ฮีรา หรือ เฮรา  เป็นมเหสีและเชษฐภคินี (พี่สาว) ของซูส พระนางเป็น<b>เทพีแห่งหญิงสาวและชีวิตสมรส
             เป็นผู้ปกป้องสตรีที่แต่งงานแล้ว</b> พระนางทรงประทับบนพระบัลลังก์ทองคำเคียงข้างซูสบนภูเขาโอลิมปัส ฮีราได้รับการกล่าวขานว่าเป็นเทพธิดาผู้มีพระกรใสกระจ่างดุจงาช้าง

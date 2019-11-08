@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Heracles = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เฮราคลีส</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เฮราคลีส</h3>
 
             <img className="img-doc" src="/static/images/monster/1.png" alt="1" />
             <p className="ml-3">  เฮราคลีส (อังกฤษ: Heracles หรือ Herakles) เป็นชื่อเทพองค์หนึ่งในตำนานเทพเจ้ากรีก ชื่อมีความหมายว่า "ความรุ่งโรจน์ของเฮรา" เขาเป็นบุตรของเทพซูสกับนางแอลก์มินี เกิดที่เมืองธีบส์ เป็นหลานของแอมฟิไทรออน และเป็นเหลนของเพอร์ซูส เฮราคลีสนับเป็นวีรบุรุษผู้ยิ่งใหญ่ในปกรณัมกรีก ชื่อในตำนานเทพโรมันว่า เฮอร์คิวลีส ซึ่งดัดแปลงเอาเรื่องราวของเขาในปกรณัมกรีกไปใช้

@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Pisces = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{marginTop: 130}}>ราศีมีน</h3>
+            <h3 className="text-center" style={{marginTop: 130}}>ราศีมีน</h3>
 
 
          <img className="img-doc" src="/static/images/zodiac/3.jpg" alt="3" />

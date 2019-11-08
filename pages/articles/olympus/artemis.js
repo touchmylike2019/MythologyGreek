@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Artemis = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เทพเจ้าอาร์เทมีส</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เทพเจ้าอาร์เทมีส</h3>
 
             <p className="ml-3">  อาร์เทอมีส  หรือในภาคโรมันคือ ไดอานา (Diana)คือ<b>เทพเจ้าแห่งการล่าสัตว์ เทพีแห่งดวงจันทร์ และเป็นเทพีแห่งความรักทางใจ</b></p>
             <img className="img-doc" src="/static/images/olyp/artemis2.jpg" alt="artemis2" />

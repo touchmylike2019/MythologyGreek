@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Galaxies = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>ระบบสุริยะกับเทพเจ้า</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>ระบบสุริยะกับเทพเจ้า</h3>
             <img className="img-doc" src="/static/images/constellations/glax.jpg" alt="glax" />
 
 

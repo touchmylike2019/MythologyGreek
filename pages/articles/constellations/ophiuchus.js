@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Ophiuchus = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>กลุ่มดาวคนแบกงู</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>กลุ่มดาวคนแบกงู</h3>
 
             <img className="img-doc" src="/static/images/constellations/Asclepius2.png" alt="Asclepius2" />
 

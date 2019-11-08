@@ -3,7 +3,7 @@ import DocumentsLayout from '../../../components/DocumentsLayout'
 const Echo = () => {
     return (
         <DocumentsLayout>
-            <h3 style={{ marginTop: 130 }}>เอคโค่</h3>
+            <h3 className="text-center" style={{ marginTop: 130 }}>เอคโค่</h3>
             <img className="img-doc" src="/static/images/nature/echoo.jpg" alt="echoo" />
             <p className="ml-3"><b>เอคโค่ Echo หมายถึง เสียงสะท้อง </b>นางไม้ตนนี้มีนิสัยเสียอย่างหนึ่งคือเป็นคนมีนิสัยช่างพูด ช่างเจรจา วันหนึ่ง เทพีฮีร่า มเหสีของเทพ กำลังตามหาเทพซุสที่หนีลงมาเที่ยวเล่น แต่นางเอคโค่ไม่รู้ความ จึงเดินเข้าไปคุยกับเทพี จนทำให้เทพี ไม่สามารถหาเทพซุสได้ทัน นางจึงสาปให้นางไม้เอคโค่ไม่มีเสียงพูดเป็นของตนเอง โดยได้พูดพูดตามคำสุดท้ายของคนอื่นแล้วเทพีก็จากไป
 
