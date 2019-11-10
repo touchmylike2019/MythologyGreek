@@ -1,31 +1,81 @@
 const debug = process.env.NODE_ENV !== "production";
 const withCSS = require('@zeit/next-css')
+const withImages = require('next-images')
 
-module.exports = withCSS({
-    exportPathMap: function () {
+module.exports = withCSS(withImages({
+    assetPrefix: !debug ? '/wtprojects/wtpg24/' : '',
+    exportPathMap: () => {
         return {
             "/index": { page: "/" },
             "/about": { page: "/about" },
             "/document": { page: "/document" },
+            "/articles/constellations/galaxies": { page: "/document" },
+            "/articles/constellations/ophiuchus": { page: "/document" },
+            "/articles/constellations/orion": { page: "/document" },
+            "/articles/constellations/taurus": { page: "/document" },
+            "/articles/constellations/ursa": { page: "/document" },
+            "/articles/godandhuman/cupid": { page: "/document" },
+            "/articles/godandhuman/helen": { page: "/document" },
+            "/articles/godandhuman/hestia": { page: "/document" },
+            "/articles/godandhuman/pandora": { page: "/document" },
+            "/articles/hero/achilles": { page: "/document" },
+            "/articles/hero/bellerophon": { page: "/document" },
+            "/articles/hero/heracles": { page: "/document" },
+            "/articles/hero/oedipus": { page: "/document" },
+            "/articles/hero/perseus": { page: "/document" },
+            "/articles/hero/theseus": { page: "/document" },
+            "/articles/monster/chimera": { page: "/document" },
+            "/articles/monster/hydra": { page: "/document" },
+            "/articles/monster/lycaon": { page: "/document" },
+            "/articles/monster/medusa": { page: "/document" },
+            "/articles/monster/sphinx": { page: "/document" },
+            "/articles/monster/typhon": { page: "/document" },
+            "/articles/nature/arachna": { page: "/document" },
+            "/articles/nature/crown": { page: "/document" },
+            "/articles/nature/delphi": { page: "/document" },
+            "/articles/nature/echo": { page: "/document" },
+            "/articles/nature/flower": { page: "/document" },
+            "/articles/ocean/charybdis-and-scylla": { page: "/document" },
+            "/articles/ocean/godofocean": { page: "/document" },
+            "/articles/ocean/siren": { page: "/document" },
+            "/articles/olympus/aphrodite": { page: "/document" },
+            "/articles/olympus/apollo": { page: "/document" },
+            "/articles/olympus/ares": { page: "/document" },
+            "/articles/olympus/artemis": { page: "/document" },
+            "/articles/olympus/athena": { page: "/document" },
+            "/articles/olympus/atlas": { page: "/document" },
+            "/articles/olympus/dimiter": { page: "/document" },
+            "/articles/olympus/dionysus": { page: "/document" },
+            "/articles/olympus/hephaestus": { page: "/document" },
+            "/articles/olympus/hera": { page: "/document" },
+            "/articles/olympus/hermes": { page: "/document" },
+            "/articles/olympus/olympus-to-olympics": { page: "/document" },
+            "/articles/olympus/poseidon": { page: "/document" },
+            "/articles/olympus/zeus": { page: "/document" },
+            "/articles/primal-universe/birthgods": { page: "/document" },
+            "/articles/primal-universe/emptiness": { page: "/document" },
+            "/articles/primal-universe/groundandsky": { page: "/document" },
+            "/articles/primal-universe/titan": { page: "/document" },
+            "/articles/worldofdeath/cerberus": { page: "/document" },
+            "/articles/worldofdeath/hades": { page: "/document" },
+            "/articles/worldofdeath/kingdom": { page: "/document" },
+            "/ articles/worldofdeath/moirae": { page: "/document" },
+            "/articles/worldofdeath/orpheus": { page: "/document" },
+            "/articles/worldofdeath/persephone": { page: "/document" },
+            "/articles/zodiac/apuarius": { page: "/document" },
+            "/articles/zodiac/aries": { page: "/document" },
+            "/articles/zodiac/cancer": { page: "/document" },
+            "/articles/zodiac/capricorn": { page: "/document" },
+            "/articles/zodiac/gemini": { page: "/document" },
+            "/articles/zodiac/leo": { page: "/document" },
+            "/articles/zodiac/libra": { page: "/document" },
+            "/articles/zodiac/pisces": { page: "/document" },
+            "/articles/zodiac/sagittarius": { page: "/document" },
+            "/articles/zodiac/scorpio": { page: "/document" },
         }
     },
-    // assetPrefix: !debug ? '/wtprojects/wtpg24/' : '',
-    webpack: config => {
-        config.module.rules.push({
-            test: /\.(jpg|ico|png|svg)$/,
-            use: [
-                {
-                    loader: 'file-loader',
-                    options: {
-                        context: '',
-                        outputPath: 'static',
-                        publicPath: '_next/static',
-                        name: '[path][name].[hash].[ext]'
-                    }
-                }
-            ]
-        })
-
+    webpack(config, options) {
         return config
     }
 })
+)
