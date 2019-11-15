@@ -19,3 +19,4 @@
 ### `cd เข้าไปใน folder MythologyGreek`
 ### `yarn install`
 ### `yarn dev`
+### `ไปที่` [localhost:3000](http://localhost:3000) `ใน browser`
