@@ -9,6 +9,11 @@
 <br />
 ========================<br />
 
+## Folder ที่ใช้ deploy
+- อยู่ใน out/
+<br />
+========================<br />
+
 ## การพัฒนา
 ### `git clone https://github.com/touchmylike2019/MythologyGreek.git`
 ### `cd เข้าไปใน folder MythologyGreek`
