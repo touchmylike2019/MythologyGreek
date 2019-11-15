@@ -1,5 +1,2616 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\document.js"],{
 
+/***/ "./assets/documents/1.jpg":
+/*!********************************!*\
+  !*** ./assets/documents/1.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "_next/static/assets/documents/1.4762e1afd973a9785e91c3d3aff9007e.jpg";
+
+/***/ }),
+
+/***/ "./assets/documents/2.jpg":
+/*!********************************!*\
+  !*** ./assets/documents/2.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "_next/static/assets/documents/2.ab596c2b99d0b3d2eb31820bc01b381f.jpg";
+
+/***/ }),
+
+/***/ "./assets/documents/3.jpg":
+/*!********************************!*\
+  !*** ./assets/documents/3.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "_next/static/assets/documents/3.0be7f78f195487383e36714471e34a6d.jpg";
+
+/***/ }),
+
+/***/ "./components/DocumentsLayout.js":
+/*!***************************************!*\
+  !*** ./components/DocumentsLayout.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
+/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Layout */ "./components/Layout.js");
+/* harmony import */ var _Sidebar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sidebar */ "./components/Sidebar.js");
+/* harmony import */ var _Sidebar2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sidebar2 */ "./components/Sidebar2.js");
+/* harmony import */ var _ToggleSide__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ToggleSide */ "./components/ToggleSide.js");
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\DocumentsLayout.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+var DocumentsLayout = function DocumentsLayout(_ref) {
+  var children = _ref.children;
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      toggle = _useState[0],
+      setToggle = _useState[1];
+
+  return __jsx(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx(_Sidebar__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    value: toggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx(_Sidebar2__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, children), __jsx(_ToggleSide__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    value: toggle,
+    setToggle: setToggle,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (DocumentsLayout);
+
+/***/ }),
+
+/***/ "./components/Header.js":
+/*!******************************!*\
+  !*** ./components/Header.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\Header.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var name = _ref.name;
+  var host = "http://10.0.15.12/wtprojects/wtpg24/static/images/";
+  var logo = host + "/logo/logo.png";
+  return __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("meta", {
+    charSet: "UTF-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, name), __jsx("meta", {
+    "data-n-head": "true",
+    "data-hid": "description",
+    name: "description",
+    content: "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E40\u0E17\u0E1E\u0E01\u0E23\u0E35\u0E01-Mythology Greek",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }), __jsx("meta", {
+    "data-n-head": "true",
+    name: "article:author",
+    content: "Mythology Greek",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), __jsx("meta", {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }), __jsx("link", {
+    rel: "icon",
+    href: logo,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }), __jsx("link", {
+    href: "https://fonts.googleapis.com/css?family=Mali&display=swap",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), __jsx("link", {
+    href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
+    rel: "stylesheet",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }));
+});
+
+/***/ }),
+
+/***/ "./components/Layout.js":
+/*!******************************!*\
+  !*** ./components/Layout.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../style.css */ "./style.css");
+/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Header */ "./components/Header.js");
+/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ "./components/Navbar.js");
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\Layout.js";
+
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var children = _ref.children;
+  return __jsx("div", {
+    className: "jsx-1441051418",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    name: "Mythology greek",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
+    id: "1441051418",
+    __self: this
+  }, "body{margin:0;padding:0;font-family:'Mali',cursive;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQkVTVENVTExJTkdcXERlc2t0b3BcXHRlc3RcXGNvbXBvbmVudHNcXExheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFVK0IsQUFHOEIsU0FDQyxVQUNrQiwyQkFDaEMiLCJmaWxlIjoiQzpcXFVzZXJzXFxCRVNUQ1VMTElOR1xcRGVza3RvcFxcdGVzdFxcY29tcG9uZW50c1xcTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFwiLi4vc3R5bGUuY3NzXCJcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi9IZWFkZXInXG5pbXBvcnQgTmF2YmFyIGZyb20gJy4vTmF2YmFyJ1xuXG5leHBvcnQgZGVmYXVsdCAoeyBjaGlsZHJlbiB9KSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgICAgPGRpdj5cbiAgICAgICAgICAgIDxIZWFkZXIgbmFtZT1cIk15dGhvbG9neSBncmVla1wiIC8+XG4gICAgICAgICAgICA8TmF2YmFyIC8+XG4gICAgICAgICAgICB7Y2hpbGRyZW59XG4gICAgICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxuICAgICAgICAgICAgICAgIGJvZHl7XG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6ICdNYWxpJywgY3Vyc2l2ZTtcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICBgfTwvc3R5bGU+XG4gICAgICAgIDwvZGl2PlxuICAgIClcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\BESTCULLING\\Desktop\\test\\components\\Layout.js */"));
+});
+
+/***/ }),
+
+/***/ "./components/Navbar.js":
+/*!******************************!*\
+  !*** ./components/Navbar.js ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\Navbar.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  var host = "http://10.0.15.12/wtprojects/wtpg24/static/images/";
+  var logo = host + "/logo/logo-center.png";
+
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
+      active = _useState[0],
+      isActive = _useState[1];
+
+  return __jsx("nav", {
+    className: "navbar navbar-expand-sm navbar-light bg-white",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    as: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "navbar-brand",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, __jsx("img", {
+    src: logo,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), "Mythology greek")), __jsx("button", {
+    onClick: function onClick() {
+      return isActive(!active);
+    },
+    className: "navbar-toggler",
+    type: "button",
+    "data-toggle": "collapse",
+    "data-target": "#navbarNav",
+    "aria-controls": "navbarNav",
+    "aria-expanded": String(active),
+    "aria-label": "Toggle navigation",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "navbar-toggler-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "navbar-toggler-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx("span", {
+    className: "navbar-toggler-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })), __jsx("div", {
+    className: active === false ? "collapse navbar-collapse" : "collapse navbar-collapse show",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("ul", {
+    className: "navbar-nav ml-auto",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/",
+    as: "/",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "nav-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("span", {
+    "data-hover": "About",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, "\u0E2B\u0E19\u0E49\u0E32\u0E2B\u0E25\u0E31\u0E01")))), __jsx("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/document",
+    as: "/document",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "nav-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("span", {
+    "data-hover": "About",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23")))), __jsx("li", {
+    className: "nav-item",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/about",
+    as: "/about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "nav-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("span", {
+    "data-hover": "Projects",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, "\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A"))))))));
+});
+
+/***/ }),
+
+/***/ "./components/Sidebar.js":
+/*!*******************************!*\
+  !*** ./components/Sidebar.js ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _articles_Primal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./articles/Primal */ "./components/articles/Primal.js");
+/* harmony import */ var _articles_Olympus__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./articles/Olympus */ "./components/articles/Olympus.js");
+/* harmony import */ var _articles_Ocean__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./articles/Ocean */ "./components/articles/Ocean.js");
+/* harmony import */ var _articles_Zodiac__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./articles/Zodiac */ "./components/articles/Zodiac.js");
+/* harmony import */ var _articles_Constellations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./articles/Constellations */ "./components/articles/Constellations.js");
+/* harmony import */ var _articles_Death__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./articles/Death */ "./components/articles/Death.js");
+/* harmony import */ var _articles_Nature__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./articles/Nature */ "./components/articles/Nature.js");
+/* harmony import */ var _articles_God__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./articles/God */ "./components/articles/God.js");
+/* harmony import */ var _articles_Hero__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./articles/Hero */ "./components/articles/Hero.js");
+/* harmony import */ var _articles_Monster__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./articles/Monster */ "./components/articles/Monster.js");
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\Sidebar.js";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+/* harmony default export */ __webpack_exports__["default"] = (function (_ref) {
+  var value = _ref.value;
+  return __jsx("div", {
+    className: "sidebar mt-3",
+    style: {
+      display: value ? "block" : "none"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "sidebar-inner",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "list",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Guide"), __jsx("p", {
+    className: "menu-root",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/document",
+    as: "/document",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "sidebar-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Mythology Greek")), __jsx(_articles_Primal__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), __jsx(_articles_Olympus__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), __jsx(_articles_Ocean__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), __jsx(_articles_Zodiac__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), __jsx(_articles_Constellations__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx(_articles_Death__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), __jsx(_articles_Nature__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), __jsx(_articles_God__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), __jsx(_articles_Hero__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), __jsx(_articles_Monster__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }))));
+});
+
+/***/ }),
+
+/***/ "./components/Sidebar2.js":
+/*!********************************!*\
+  !*** ./components/Sidebar2.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _articles_Primal__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./articles/Primal */ "./components/articles/Primal.js");
+/* harmony import */ var _articles_Olympus__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./articles/Olympus */ "./components/articles/Olympus.js");
+/* harmony import */ var _articles_Ocean__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./articles/Ocean */ "./components/articles/Ocean.js");
+/* harmony import */ var _articles_Zodiac__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./articles/Zodiac */ "./components/articles/Zodiac.js");
+/* harmony import */ var _articles_Constellations__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./articles/Constellations */ "./components/articles/Constellations.js");
+/* harmony import */ var _articles_Death__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./articles/Death */ "./components/articles/Death.js");
+/* harmony import */ var _articles_Nature__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./articles/Nature */ "./components/articles/Nature.js");
+/* harmony import */ var _articles_God__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./articles/God */ "./components/articles/God.js");
+/* harmony import */ var _articles_Hero__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./articles/Hero */ "./components/articles/Hero.js");
+/* harmony import */ var _articles_Monster__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./articles/Monster */ "./components/articles/Monster.js");
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\Sidebar2.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+
+
+
+var Sidebar2 = function Sidebar2() {
+  return __jsx("div", {
+    className: "sidebar2 mt-3",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "sidebar-inner2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "list",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "Guide"), __jsx("p", {
+    className: "menu-root",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/document",
+    as: "/document",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "sidebar-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20
+    },
+    __self: this
+  }, "Mythology Greek")), __jsx(_articles_Primal__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }), __jsx(_articles_Olympus__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), __jsx(_articles_Ocean__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }), __jsx(_articles_Zodiac__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }), __jsx(_articles_Constellations__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), __jsx(_articles_Death__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), __jsx(_articles_Nature__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), __jsx(_articles_God__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), __jsx(_articles_Hero__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), __jsx(_articles_Monster__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Sidebar2);
+
+/***/ }),
+
+/***/ "./components/ToggleSide.js":
+/*!**********************************!*\
+  !*** ./components/ToggleSide.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\ToggleSide.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var ToggleSide = function ToggleSide(_ref) {
+  var value = _ref.value,
+      setToggle = _ref.setToggle;
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, value ? __jsx("button", {
+    onClick: function onClick() {
+      return setToggle(!value);
+    },
+    className: "toggle-sidebar",
+    type: "button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fas fa-times",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  })) : __jsx("button", {
+    onClick: function onClick() {
+      return setToggle(!value);
+    },
+    className: "toggle-sidebar",
+    type: "button",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fas fa-angle-up",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }), __jsx("i", {
+    className: "fas fa-angle-down",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  })));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ToggleSide);
+
+/***/ }),
+
+/***/ "./components/articles/Constellations.js":
+/*!***********************************************!*\
+  !*** ./components/articles/Constellations.js ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Constellations.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/constellations/orion",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27\u0E19\u0E32\u0E22\u0E1E\u0E23\u0E32\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/constellations/taurus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27\u0E27\u0E31\u0E27"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/constellations/ursa",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E2B\u0E21\u0E39\u0E48\u0E14\u0E32\u0E27\u0E2B\u0E21\u0E35\u0E19\u0E49\u0E2D\u0E22\u0E14\u0E32\u0E27\u0E2B\u0E21\u0E35\u0E43\u0E2B\u0E0D\u0E48"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/constellations/ophiuchus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27\u0E04\u0E19\u0E41\u0E1A\u0E01\u0E07\u0E39"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/constellations/galaxies",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "\u0E23\u0E30\u0E1A\u0E1A\u0E2A\u0E38\u0E23\u0E34\u0E22\u0E30\u0E01\u0E31\u0E1A\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Death.js":
+/*!**************************************!*\
+  !*** ./components/articles/Death.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Death.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E04\u0E27\u0E32\u0E21\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E43\u0E19\u0E14\u0E34\u0E19\u0E41\u0E14\u0E19\u0E1B\u0E23\u0E42\u0E25\u0E01"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/worldofdeath/hades",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u0E2E\u0E32\u0E40\u0E14\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/worldofdeath/kingdom",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E22\u0E21\u0E42\u0E25\u0E01"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/worldofdeath/cerberus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E2B\u0E21\u0E32\u0E41\u0E2B\u0E48\u0E07\u0E19\u0E23\u0E01"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/worldofdeath/moirae",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E35\u0E1C\u0E39\u0E49\u0E1B\u0E31\u0E48\u0E19\u0E14\u0E49\u0E32\u0E22\u0E41\u0E2B\u0E48\u0E07\u0E42\u0E0A\u0E04\u0E0A\u0E30\u0E15\u0E32"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/worldofdeath/persephone",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E0A\u0E34\u0E19\u0E35\u0E1C\u0E39\u0E49\u0E40\u0E25\u0E2D\u0E42\u0E09\u0E21\u0E41\u0E2B\u0E48\u0E07\u0E1B\u0E23\u0E42\u0E25\u0E01"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/worldofdeath/orpheus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "\u0E40\u0E1E\u0E25\u0E07\u0E1E\u0E34\u0E13\u0E01\u0E25\u0E48\u0E2D\u0E21\u0E22\u0E21\u0E42\u0E25\u0E01")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/God.js":
+/*!************************************!*\
+  !*** ./components/articles/God.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\God.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E01\u0E31\u0E1A\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/godandhuman/hestia",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E35\u0E41\u0E2B\u0E48\u0E07\u0E40\u0E15\u0E32\u0E44\u0E1F\u0E1C\u0E39\u0E49\u0E04\u0E38\u0E49\u0E21\u0E04\u0E23\u0E2D\u0E07\u0E1A\u0E49\u0E32\u0E19\u0E40\u0E23\u0E37\u0E2D\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/godandhuman/cupid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E04\u0E27\u0E32\u0E21\u0E23\u0E31\u0E01 \u0E04\u0E34\u0E27\u0E1B\u0E34\u0E14\u0E40\u0E40\u0E25\u0E30\u0E44\u0E0B\u0E04\u0E35"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/godandhuman/pandora",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E42\u0E25\u0E01 \u201C\u0E01\u0E25\u0E48\u0E2D\u0E07\u0E41\u0E1E\u0E19\u0E42\u0E14\u0E23\u0E48\u0E32\u201D \u0E01\u0E25\u0E48\u0E2D\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E2B\u0E32\u0E22\u0E19\u0E30"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/godandhuman/helen",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E40\u0E2E\u0E40\u0E25\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E17\u0E23\u0E2D\u0E22")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Hero.js":
+/*!*************************************!*\
+  !*** ./components/articles/Hero.js ***!
+  \*************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Hero.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E27\u0E35\u0E23\u0E1A\u0E38\u0E23\u0E38\u0E29"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/hero/heracles",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u0E40\u0E2E\u0E23\u0E32\u0E04\u0E25\u0E35\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/hero/achilles",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0E2D\u0E04\u0E34\u0E25\u0E25\u0E35\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/hero/perseus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E40\u0E1E\u0E2D\u0E23\u0E4C\u0E0B\u0E35\u0E2D\u0E38\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/hero/oedipus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "\u0E2D\u0E35\u0E14\u0E34\u0E1B\u0E31\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/hero/theseus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "\u0E18\u0E35\u0E2A\u0E34\u0E2D\u0E38\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/hero/bellerophon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "\u0E40\u0E1A\u0E25\u0E40\u0E25\u0E42\u0E23\u0E1F\u0E2D\u0E19")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Monster.js":
+/*!****************************************!*\
+  !*** ./components/articles/Monster.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Monster.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E2D\u0E2A\u0E39\u0E23\u0E01\u0E32\u0E22"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/monster/typhon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u0E44\u0E17\u0E1F\u0E2D\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/monster/sphinx",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0E2A\u0E1F\u0E23\u0E34\u0E07\u0E0B\u0E4C"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/monster/hydra",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E44\u0E2E\u0E14\u0E23\u0E32"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/monster/chimera",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "\u0E44\u0E04\u0E40\u0E21\u0E23\u0E48\u0E32"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/monster/lycaon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "\u0E44\u0E25\u0E04\u0E32\u0E2D\u0E31\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/monster/medusa",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 45
+    },
+    __self: this
+  }, "\u0E40\u0E21\u0E14\u0E39\u0E0B\u0E48\u0E32")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Nature.js":
+/*!***************************************!*\
+  !*** ./components/articles/Nature.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Nature.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E40\u0E01\u0E34\u0E14\u0E18\u0E23\u0E23\u0E21\u0E0A\u0E32\u0E15\u0E34"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/nature/flower",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, "\u0E14\u0E2D\u0E01\u0E44\u0E21\u0E49\u0E08\u0E32\u0E01\u0E15\u0E33\u0E19\u0E32\u0E19\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E01\u0E23\u0E35\u0E01"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/nature/echo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "\u0E40\u0E2D\u0E04\u0E42\u0E04\u0E48"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/nature/crown",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E25\u0E2D\u0E40\u0E23\u0E25\u0E21\u0E07\u0E01\u0E38\u0E0F\u0E02\u0E2D\u0E07\u0E2D\u0E1E\u0E2D\u0E25\u0E42\u0E25"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/nature/delphi",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 31
+    },
+    __self: this
+  }, "\u0E19\u0E49\u0E33\u0E1E\u0E38\u0E17\u0E35\u0E48\u0E40\u0E14\u0E25\u0E1F\u0E35"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/nature/arachna",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, "\u0E01\u0E33\u0E40\u0E19\u0E34\u0E14\u0E41\u0E21\u0E07\u0E21\u0E38\u0E21 \u0E2D\u0E32\u0E23\u0E31\u0E04\u0E40\u0E19\u0E48")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Ocean.js":
+/*!**************************************!*\
+  !*** ./components/articles/Ocean.js ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Ocean.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E21\u0E2B\u0E32\u0E2A\u0E21\u0E38\u0E17\u0E23"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/ocean/godofocean",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E41\u0E2B\u0E48\u0E07\u0E21\u0E2B\u0E32\u0E2A\u0E21\u0E38\u0E17\u0E23"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/ocean/siren",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "\u0E44\u0E0B\u0E40\u0E23\u0E19 \u0E40\u0E2A\u0E35\u0E22\u0E07\u0E40\u0E1E\u0E25\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E21\u0E23\u0E13\u0E30"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/ocean/charybdis-and-scylla",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\u0E04\u0E32\u0E23\u0E34\u0E1A\u0E14\u0E34\u0E2A\u0E41\u0E25\u0E30\u0E0B\u0E34\u0E25\u0E25\u0E32 \u0E2A\u0E2D\u0E07\u0E2D\u0E2A\u0E38\u0E23\u0E35\u0E41\u0E2B\u0E48\u0E07\u0E17\u0E49\u0E2D\u0E07\u0E17\u0E30\u0E40\u0E25")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Olympus.js":
+/*!****************************************!*\
+  !*** ./components/articles/Olympus.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Olympus.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E42\u0E2D\u0E25\u0E34\u0E21\u0E1B\u0E31\u0E2A \u0E2A\u0E27\u0E23\u0E23\u0E04\u0E4C\u0E41\u0E2B\u0E48\u0E07\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/zeus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#What-is-Vue-js",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E0B\u0E38\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/dimiter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Getting-Started",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E35\u0E14\u0E34\u0E21\u0E34\u0E40\u0E17\u0E2D\u0E23\u0E4C"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/hera",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Declarative-Rendering",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E35\u0E40\u0E2E\u0E23\u0E32"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/ares",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E41\u0E2D\u0E23\u0E35\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/apollo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E2D\u0E1E\u0E2D\u0E25\u0E42\u0E25"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/artemis",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E2D\u0E32\u0E23\u0E4C\u0E40\u0E17\u0E21\u0E35\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/hermes",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E40\u0E2E\u0E2D\u0E23\u0E4C\u0E40\u0E21\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/athena",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E35\u0E2D\u0E18\u0E35\u0E19\u0E32"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/aphrodite",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E35\u0E2D\u0E30\u0E42\u0E1E\u0E23\u0E4C\u0E44\u0E14\u0E17\u0E4C"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/hephaestus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E40\u0E2E\u0E40\u0E1F\u0E2A\u0E15\u0E31\u0E2A"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/dionysus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E44\u0E14\u0E2D\u0E30\u0E44\u0E19\u0E40\u0E0B\u0E34\u0E25"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/poseidon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E42\u0E1E\u0E44\u0E0B\u0E14\u0E2D\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/olympus-to-olympics",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 69
+    },
+    __self: this
+  }, "\u0E42\u0E2D\u0E25\u0E34\u0E21\u0E1B\u0E31\u0E2A\u0E2A\u0E39\u0E48\u0E42\u0E2D\u0E25\u0E34\u0E21\u0E1B\u0E34\u0E01"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/olympus/atlas",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 74
+    },
+    __self: this
+  }, "\u0E41\u0E2D\u0E15\u0E25\u0E32\u0E2A\u0E41\u0E1A\u0E01\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Primal.js":
+/*!***************************************!*\
+  !*** ./components/articles/Primal.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Primal.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, "\u0E1B\u0E10\u0E21\u0E15\u0E33\u0E19\u0E32\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E08\u0E31\u0E01\u0E23\u0E27\u0E32\u0E25"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/primal/emptiness",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E41\u0E2B\u0E48\u0E07\u0E04\u0E27\u0E32\u0E21\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E25\u0E48\u0E32"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 12
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/primal/groundandsky",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, "\u0E1E\u0E37\u0E49\u0E19\u0E14\u0E34\u0E19\u0E41\u0E25\u0E30\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/primal/titan",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, "\u0E44\u0E17\u0E17\u0E31\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/primal/birthgods",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    "data-scroll": "",
+    href: "#Conditionals-and-Loops",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, "\u0E01\u0E33\u0E40\u0E19\u0E34\u0E14\u0E23\u0E32\u0E0A\u0E32\u0E41\u0E2B\u0E48\u0E07\u0E17\u0E27\u0E22\u0E40\u0E17\u0E1E")))));
+});
+
+/***/ }),
+
+/***/ "./components/articles/Zodiac.js":
+/*!***************************************!*\
+  !*** ./components/articles/Zodiac.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\components\\articles\\Zodiac.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("p", {
+    className: "sidebar-link current",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E23\u0E32\u0E28\u0E35"), __jsx("ul", {
+    className: "menu-sub",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/capricorn",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E21\u0E31\u0E07\u0E01\u0E23"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/apuarius",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E01\u0E38\u0E21\u0E20\u0E4C"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/pisces",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E21\u0E35\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/aries",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E40\u0E21\u0E29"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/taurus",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E1E\u0E24\u0E01\u0E29\u0E20"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/gemini",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E40\u0E21\u0E16\u0E38\u0E19"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/cancer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E01\u0E23\u0E01\u0E0E"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/leo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E2A\u0E34\u0E07\u0E2B\u0E4C"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/virgo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E01\u0E31\u0E19\u0E22\u0E4C"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/libra",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 54
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E15\u0E38\u0E25\u0E22\u0E4C"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/scorpio",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E1E\u0E34\u0E08\u0E34\u0E01"))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+    href: "/articles/zodiac/sagittarius",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, __jsx("a", {
+    className: "section-link",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "\u0E23\u0E32\u0E28\u0E35\u0E18\u0E19\u0E39")))));
+});
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -2058,7 +4669,7 @@ module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.9' };
+var core = module.exports = { version: '2.6.10' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -5674,20 +8285,20 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5CWebTech%5Ctest-deploy-nextjs%5Csrc%5Cpages%5Cdocument.js!./":
-/*!********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5CWebTech%5Ctest-deploy-nextjs%5Csrc%5Cpages%5Cdocument.js ***!
-  \********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5Ctest%5Cpages%5Cdocument.js!./":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5Ctest%5Cpages%5Cdocument.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 
     (window.__NEXT_P=window.__NEXT_P||[]).push(["/document", function() {
-      var mod = __webpack_require__(/*! ./src/pages/document.js */ "./src/pages/document.js")
+      var mod = __webpack_require__(/*! ./pages/document.js */ "./pages/document.js")
       if(true) {
-        module.hot.accept(/*! ./src/pages/document.js */ "./src/pages/document.js", function() {
+        module.hot.accept(/*! ./pages/document.js */ "./pages/document.js", function() {
           if(!next.router.components["/document"]) return
-          var updatedPage = __webpack_require__(/*! ./src/pages/document.js */ "./src/pages/document.js")
+          var updatedPage = __webpack_require__(/*! ./pages/document.js */ "./pages/document.js")
           next.router.update("/document", updatedPage)
         })
       }
@@ -6804,7 +9415,7 @@ function () {
       // can be caused by navigating back from an external site
 
 
-      if (e.state.options && e.state.options.historyId !== _this.historyId) {
+      if (e.state.options && e.state.options.fromExternal) {
         return;
       } // If the downstream application returns falsy, return.
       // They will then be responsible for handling the event.
@@ -6859,9 +9470,7 @@ function () {
     is_dynamic_1.isDynamicRoute(pathname) && __NEXT_DATA__.nextExport ? pathname : as;
     this.sub = subscription;
     this.clc = null;
-    this._wrapApp = wrapApp; // we use a historyId to enable ignoring invalid popstates
-
-    this.historyId = Math.random();
+    this._wrapApp = wrapApp;
 
     if (true) {
       // in order for `e.state` to work on the `onpopstate` event
@@ -6871,6 +9480,20 @@ function () {
         query: query
       }), as);
       window.addEventListener('popstate', this.onPopState);
+      window.addEventListener('unload', function () {
+        // Workaround for popstate firing on initial page load when
+        // navigating back from an external site
+        if (history.state) {
+          var _history$state = history.state,
+              url = _history$state.url,
+              _as2 = _history$state.as,
+              options = _history$state.options;
+
+          _this.changeState('replaceState', url, _as2, _Object$assign({}, options, {
+            fromExternal: true
+          }));
+        }
+      });
     }
   } // @deprecated backwards compatibility even though it's a private method.
 
@@ -7087,9 +9710,7 @@ function () {
         window.history[method]({
           url: url,
           as: as,
-          options: _Object$assign({}, options, {
-            historyId: this.historyId
-          })
+          options: options
         }, null, as);
       }
     }
@@ -7380,7 +10001,8 @@ function () {
                 this.clc = cancel;
                 App = this.components['/_app'].Component;
 
-                if (!Component.__NEXT_SPR) {
+                if (!( // @ts-ignore workaround for dead-code elimination
+                (self.__HAS_SPR || "development" !== 'production') && Component.__NEXT_SPR)) {
                   _context2.next = 12;
                   break;
                 }
@@ -7734,7 +10356,6 @@ function execOnce(fn) {
   var _this = this;
 
   var used = false;
-  var result = null;
   return function () {
     if (!used) {
       used = true;
@@ -7743,10 +10364,8 @@ function execOnce(fn) {
         args[_key] = arguments[_key];
       }
 
-      result = fn.apply(_this, args);
+      fn.apply(_this, args);
     }
-
-    return result;
   };
 }
 
@@ -7789,7 +10408,7 @@ function loadGetInitialProps(_x, _x2) {
 function _loadGetInitialProps() {
   _loadGetInitialProps = _asyncToGenerator(
   /*#__PURE__*/
-  _regeneratorRuntime.mark(function _callee(App, ctx) {
+  _regeneratorRuntime.mark(function _callee(Component, ctx) {
     var message, res, props, _message;
 
     return _regeneratorRuntime.wrap(function _callee$(_context) {
@@ -7798,73 +10417,58 @@ function _loadGetInitialProps() {
           case 0:
             if (false) {}
 
-            if (!(App.prototype && App.prototype.getInitialProps)) {
+            if (!(Component.prototype && Component.prototype.getInitialProps)) {
               _context.next = 4;
               break;
             }
 
-            message = "\"".concat(getDisplayName(App), ".getInitialProps()\" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.");
+            message = "\"".concat(getDisplayName(Component), ".getInitialProps()\" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.");
             throw new Error(message);
 
           case 4:
             // when called from _app `ctx` is nested in `ctx`
             res = ctx.res || ctx.ctx && ctx.ctx.res;
 
-            if (App.getInitialProps) {
-              _context.next = 12;
+            if (Component.getInitialProps) {
+              _context.next = 7;
               break;
             }
 
-            if (!(ctx.ctx && ctx.Component)) {
-              _context.next = 11;
-              break;
-            }
-
-            _context.next = 9;
-            return loadGetInitialProps(ctx.Component, ctx.ctx);
-
-          case 9:
-            _context.t0 = _context.sent;
-            return _context.abrupt("return", {
-              pageProps: _context.t0
-            });
-
-          case 11:
             return _context.abrupt("return", {});
 
-          case 12:
-            _context.next = 14;
-            return App.getInitialProps(ctx);
+          case 7:
+            _context.next = 9;
+            return Component.getInitialProps(ctx);
 
-          case 14:
+          case 9:
             props = _context.sent;
 
             if (!(res && isResSent(res))) {
-              _context.next = 17;
+              _context.next = 12;
               break;
             }
 
             return _context.abrupt("return", props);
 
-          case 17:
+          case 12:
             if (props) {
-              _context.next = 20;
+              _context.next = 15;
               break;
             }
 
-            _message = "\"".concat(getDisplayName(App), ".getInitialProps()\" should resolve to an object. But found \"").concat(props, "\" instead.");
+            _message = "\"".concat(getDisplayName(Component), ".getInitialProps()\" should resolve to an object. But found \"").concat(props, "\" instead.");
             throw new Error(_message);
 
-          case 20:
+          case 15:
             if (true) {
               if (_Object$keys(props).length === 0 && !ctx.ctx) {
-                console.warn("".concat(getDisplayName(App), " returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps"));
+                console.warn("".concat(getDisplayName(Component), " returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps"));
               }
             }
 
             return _context.abrupt("return", props);
 
-          case 22:
+          case 17:
           case "end":
             return _context.stop();
         }
@@ -8442,12 +11046,12 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_e9ad7d891b372a4221cf ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf */ "dll-reference dll_e9ad7d891b372a4221cf"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -11745,12 +14349,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_e9ad7d891b372a4221cf ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf */ "dll-reference dll_e9ad7d891b372a4221cf"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -12385,12 +14989,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_e9ad7d891b372a4221cf ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf */ "dll-reference dll_e9ad7d891b372a4221cf"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -12402,7 +15006,7 @@ module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.9.0
+/** @license React v16.11.0
  * react-is.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -12424,16 +15028,15 @@ Object.defineProperty(exports, '__esModule', { value: true });
 // The Symbol used to tag the ReactElement-like types. If there is no native Symbol
 // nor polyfill, then a plain number is used for performance.
 var hasSymbol = typeof Symbol === 'function' && Symbol.for;
-
 var REACT_ELEMENT_TYPE = hasSymbol ? Symbol.for('react.element') : 0xeac7;
 var REACT_PORTAL_TYPE = hasSymbol ? Symbol.for('react.portal') : 0xeaca;
 var REACT_FRAGMENT_TYPE = hasSymbol ? Symbol.for('react.fragment') : 0xeacb;
 var REACT_STRICT_MODE_TYPE = hasSymbol ? Symbol.for('react.strict_mode') : 0xeacc;
 var REACT_PROFILER_TYPE = hasSymbol ? Symbol.for('react.profiler') : 0xead2;
 var REACT_PROVIDER_TYPE = hasSymbol ? Symbol.for('react.provider') : 0xeacd;
-var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace;
-// TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
+var REACT_CONTEXT_TYPE = hasSymbol ? Symbol.for('react.context') : 0xeace; // TODO: We don't use AsyncMode or ConcurrentMode anymore. They were temporary
 // (unstable) APIs that have been removed. Can we remove the symbols?
+
 var REACT_ASYNC_MODE_TYPE = hasSymbol ? Symbol.for('react.async_mode') : 0xeacf;
 var REACT_CONCURRENT_MODE_TYPE = hasSymbol ? Symbol.for('react.concurrent_mode') : 0xeacf;
 var REACT_FORWARD_REF_TYPE = hasSymbol ? Symbol.for('react.forward_ref') : 0xead0;
@@ -12443,11 +15046,11 @@ var REACT_MEMO_TYPE = hasSymbol ? Symbol.for('react.memo') : 0xead3;
 var REACT_LAZY_TYPE = hasSymbol ? Symbol.for('react.lazy') : 0xead4;
 var REACT_FUNDAMENTAL_TYPE = hasSymbol ? Symbol.for('react.fundamental') : 0xead5;
 var REACT_RESPONDER_TYPE = hasSymbol ? Symbol.for('react.responder') : 0xead6;
+var REACT_SCOPE_TYPE = hasSymbol ? Symbol.for('react.scope') : 0xead7;
 
 function isValidElementType(type) {
-  return typeof type === 'string' || typeof type === 'function' ||
-  // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
-  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE);
+  return typeof type === 'string' || typeof type === 'function' || // Note: its typeof might be other than 'symbol' or 'number' if it's a polyfill.
+  type === REACT_FRAGMENT_TYPE || type === REACT_CONCURRENT_MODE_TYPE || type === REACT_PROFILER_TYPE || type === REACT_STRICT_MODE_TYPE || type === REACT_SUSPENSE_TYPE || type === REACT_SUSPENSE_LIST_TYPE || typeof type === 'object' && type !== null && (type.$$typeof === REACT_LAZY_TYPE || type.$$typeof === REACT_MEMO_TYPE || type.$$typeof === REACT_PROVIDER_TYPE || type.$$typeof === REACT_CONTEXT_TYPE || type.$$typeof === REACT_FORWARD_REF_TYPE || type.$$typeof === REACT_FUNDAMENTAL_TYPE || type.$$typeof === REACT_RESPONDER_TYPE || type.$$typeof === REACT_SCOPE_TYPE);
 }
 
 /**
@@ -12463,12 +15066,11 @@ function isValidElementType(type) {
  * paths. Removing the logging code for production environments will keep the
  * same logic and follow the same code paths.
  */
-
-var lowPriorityWarning = function () {};
+var lowPriorityWarningWithoutStack = function () {};
 
 {
   var printWarning = function (format) {
-    for (var _len = arguments.length, args = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
       args[_key - 1] = arguments[_key];
     }
 
@@ -12476,9 +15078,11 @@ var lowPriorityWarning = function () {};
     var message = 'Warning: ' + format.replace(/%s/g, function () {
       return args[argIndex++];
     });
+
     if (typeof console !== 'undefined') {
       console.warn(message);
     }
+
     try {
       // --- Welcome to debugging React ---
       // This error was thrown as a convenience so that you can use this stack
@@ -12487,25 +15091,27 @@ var lowPriorityWarning = function () {};
     } catch (x) {}
   };
 
-  lowPriorityWarning = function (condition, format) {
+  lowPriorityWarningWithoutStack = function (condition, format) {
     if (format === undefined) {
-      throw new Error('`lowPriorityWarning(condition, format, ...args)` requires a warning ' + 'message argument');
+      throw new Error('`lowPriorityWarningWithoutStack(condition, format, ...args)` requires a warning ' + 'message argument');
     }
+
     if (!condition) {
-      for (var _len2 = arguments.length, args = Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
+      for (var _len2 = arguments.length, args = new Array(_len2 > 2 ? _len2 - 2 : 0), _key2 = 2; _key2 < _len2; _key2++) {
         args[_key2 - 2] = arguments[_key2];
       }
 
-      printWarning.apply(undefined, [format].concat(args));
+      printWarning.apply(void 0, [format].concat(args));
     }
   };
 }
 
-var lowPriorityWarning$1 = lowPriorityWarning;
+var lowPriorityWarningWithoutStack$1 = lowPriorityWarningWithoutStack;
 
 function typeOf(object) {
   if (typeof object === 'object' && object !== null) {
     var $$typeof = object.$$typeof;
+
     switch ($$typeof) {
       case REACT_ELEMENT_TYPE:
         var type = object.type;
@@ -12518,6 +15124,7 @@ function typeOf(object) {
           case REACT_STRICT_MODE_TYPE:
           case REACT_SUSPENSE_TYPE:
             return type;
+
           default:
             var $$typeofType = type && type.$$typeof;
 
@@ -12526,10 +15133,13 @@ function typeOf(object) {
               case REACT_FORWARD_REF_TYPE:
               case REACT_PROVIDER_TYPE:
                 return $$typeofType;
+
               default:
                 return $$typeof;
             }
+
         }
+
       case REACT_LAZY_TYPE:
       case REACT_MEMO_TYPE:
       case REACT_PORTAL_TYPE:
@@ -12538,9 +15148,8 @@ function typeOf(object) {
   }
 
   return undefined;
-}
+} // AsyncMode is deprecated along with isAsyncMode
 
-// AsyncMode is deprecated along with isAsyncMode
 var AsyncMode = REACT_ASYNC_MODE_TYPE;
 var ConcurrentMode = REACT_CONCURRENT_MODE_TYPE;
 var ContextConsumer = REACT_CONTEXT_TYPE;
@@ -12554,17 +15163,16 @@ var Portal = REACT_PORTAL_TYPE;
 var Profiler = REACT_PROFILER_TYPE;
 var StrictMode = REACT_STRICT_MODE_TYPE;
 var Suspense = REACT_SUSPENSE_TYPE;
+var hasWarnedAboutDeprecatedIsAsyncMode = false; // AsyncMode should be deprecated
 
-var hasWarnedAboutDeprecatedIsAsyncMode = false;
-
-// AsyncMode should be deprecated
 function isAsyncMode(object) {
   {
     if (!hasWarnedAboutDeprecatedIsAsyncMode) {
       hasWarnedAboutDeprecatedIsAsyncMode = true;
-      lowPriorityWarning$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
+      lowPriorityWarningWithoutStack$1(false, 'The ReactIs.isAsyncMode() alias has been deprecated, ' + 'and will be removed in React 17+. Update your code to use ' + 'ReactIs.isConcurrentMode() instead. It has the exact same API.');
     }
   }
+
   return isConcurrentMode(object) || typeOf(object) === REACT_ASYNC_MODE_TYPE;
 }
 function isConcurrentMode(object) {
@@ -12866,12 +15474,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_e9ad7d891b372a4221cf ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf */ "dll-reference dll_e9ad7d891b372a4221cf"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -13307,80 +15915,75 @@ function polyfill(Component) {
 /*!******************************************************!*\
   !*** ./node_modules/react-popper/lib/esm/Manager.js ***!
   \******************************************************/
-/*! exports provided: ManagerContext, default */
+/*! exports provided: ManagerReferenceNodeContext, ManagerReferenceNodeSetterContext, default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManagerContext", function() { return ManagerContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManagerReferenceNodeContext", function() { return ManagerReferenceNodeContext; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ManagerReferenceNodeSetterContext", function() { return ManagerReferenceNodeSetterContext; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Manager; });
-/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/extends */ "./node_modules/@babel/runtime/helpers/extends.js");
-/* harmony import */ var _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
-/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
-/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
-/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var create_react_context__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! create-react-context */ "./node_modules/create-react-context/lib/index.js");
-/* harmony import */ var create_react_context__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(create_react_context__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/helpers/assertThisInitialized */ "./node_modules/@babel/runtime/helpers/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime/helpers/inheritsLoose */ "./node_modules/@babel/runtime/helpers/inheritsLoose.js");
+/* harmony import */ var _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime/helpers/defineProperty */ "./node_modules/@babel/runtime/helpers/defineProperty.js");
+/* harmony import */ var _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var create_react_context__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! create-react-context */ "./node_modules/create-react-context/lib/index.js");
+/* harmony import */ var create_react_context__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(create_react_context__WEBPACK_IMPORTED_MODULE_4__);
 
 
 
 
 
-
-var ManagerContext = create_react_context__WEBPACK_IMPORTED_MODULE_5___default()({
-  setReferenceNode: undefined,
-  referenceNode: undefined
-});
+var ManagerReferenceNodeContext = create_react_context__WEBPACK_IMPORTED_MODULE_4___default()();
+var ManagerReferenceNodeSetterContext = create_react_context__WEBPACK_IMPORTED_MODULE_4___default()();
 
 var Manager =
 /*#__PURE__*/
 function (_React$Component) {
-  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_2___default()(Manager, _React$Component);
+  _babel_runtime_helpers_inheritsLoose__WEBPACK_IMPORTED_MODULE_1___default()(Manager, _React$Component);
 
   function Manager() {
     var _this;
 
-    _this = _React$Component.call(this) || this;
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
 
-    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "setReferenceNode", function (referenceNode) {
-      if (!referenceNode || _this.state.context.referenceNode === referenceNode) {
-        return;
+    _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "referenceNode", void 0);
+
+    _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_2___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_0___default()(_this), "setReferenceNode", function (newReferenceNode) {
+      if (newReferenceNode && _this.referenceNode !== newReferenceNode) {
+        _this.referenceNode = newReferenceNode;
+
+        _this.forceUpdate();
       }
-
-      _this.setState(function (_ref) {
-        var context = _ref.context;
-        return {
-          context: _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({}, context, {
-            referenceNode: referenceNode
-          })
-        };
-      });
     });
 
-    _this.state = {
-      context: {
-        setReferenceNode: _this.setReferenceNode,
-        referenceNode: undefined
-      }
-    };
     return _this;
   }
 
   var _proto = Manager.prototype;
 
+  _proto.componentWillUnmount = function componentWillUnmount() {
+    this.referenceNode = null;
+  };
+
   _proto.render = function render() {
-    return react__WEBPACK_IMPORTED_MODULE_4__["createElement"](ManagerContext.Provider, {
-      value: this.state.context
-    }, this.props.children);
+    return react__WEBPACK_IMPORTED_MODULE_3__["createElement"](ManagerReferenceNodeContext.Provider, {
+      value: this.referenceNode
+    }, react__WEBPACK_IMPORTED_MODULE_3__["createElement"](ManagerReferenceNodeSetterContext.Provider, {
+      value: this.setReferenceNode
+    }, this.props.children));
   };
 
   return Manager;
-}(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
+}(react__WEBPACK_IMPORTED_MODULE_3__["Component"]);
 
 
 
@@ -13457,7 +16060,7 @@ function (_React$Component) {
 
     _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_4___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_2___default()(_this), "setPopperNode", function (popperNode) {
       if (!popperNode || _this.popperNode === popperNode) return;
-      Object(_utils__WEBPACK_IMPORTED_MODULE_8__["safeInvoke"])(_this.props.innerRef, popperNode);
+      Object(_utils__WEBPACK_IMPORTED_MODULE_8__["setRef"])(_this.props.innerRef, popperNode);
       _this.popperNode = popperNode;
 
       _this.updatePopperInstance();
@@ -13550,7 +16153,14 @@ function (_React$Component) {
 
   _proto.componentDidUpdate = function componentDidUpdate(prevProps, prevState) {
     // If the Popper.js options have changed, update the instance (destroy + create)
-    if (this.props.placement !== prevProps.placement || this.props.referenceElement !== prevProps.referenceElement || this.props.positionFixed !== prevProps.positionFixed) {
+    if (this.props.placement !== prevProps.placement || this.props.referenceElement !== prevProps.referenceElement || this.props.positionFixed !== prevProps.positionFixed || this.props.modifiers !== prevProps.modifiers) {
+      // develop only check that modifiers isn't being updated needlessly
+      if (true) {
+        if (this.props.modifiers !== prevProps.modifiers && this.props.modifiers != null && prevProps.modifiers != null && Object(_utils__WEBPACK_IMPORTED_MODULE_8__["shallowEqual"])(this.props.modifiers, prevProps.modifiers)) {
+          console.warn("'modifiers' prop reference updated even though all values appear the same.\nConsider memoizing the 'modifiers' object to avoid needless rendering.");
+        }
+      }
+
       this.updatePopperInstance();
     } else if (this.props.eventsEnabled !== prevProps.eventsEnabled && this.popperInstance) {
       this.props.eventsEnabled ? this.popperInstance.enableEventListeners() : this.popperInstance.disableEventListeners();
@@ -13566,7 +16176,7 @@ function (_React$Component) {
   };
 
   _proto.componentWillUnmount = function componentWillUnmount() {
-    Object(_utils__WEBPACK_IMPORTED_MODULE_8__["safeInvoke"])(this.props.innerRef, null);
+    Object(_utils__WEBPACK_IMPORTED_MODULE_8__["setRef"])(this.props.innerRef, null);
     this.destroyPopperInstance();
   };
 
@@ -13600,8 +16210,7 @@ function Popper(_ref) {
   var referenceElement = _ref.referenceElement,
       props = _babel_runtime_helpers_objectWithoutPropertiesLoose__WEBPACK_IMPORTED_MODULE_0___default()(_ref, ["referenceElement"]);
 
-  return react__WEBPACK_IMPORTED_MODULE_5__["createElement"](_Manager__WEBPACK_IMPORTED_MODULE_7__["ManagerContext"].Consumer, null, function (_ref2) {
-    var referenceNode = _ref2.referenceNode;
+  return react__WEBPACK_IMPORTED_MODULE_5__["createElement"](_Manager__WEBPACK_IMPORTED_MODULE_7__["ManagerReferenceNodeContext"].Consumer, null, function (referenceNode) {
     return react__WEBPACK_IMPORTED_MODULE_5__["createElement"](InnerPopper, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_1___default()({
       referenceElement: referenceElement !== undefined ? referenceElement : referenceNode
     }, props));
@@ -13658,7 +16267,7 @@ function (_React$Component) {
     _this = _React$Component.call.apply(_React$Component, [this].concat(args)) || this;
 
     _babel_runtime_helpers_defineProperty__WEBPACK_IMPORTED_MODULE_3___default()(_babel_runtime_helpers_assertThisInitialized__WEBPACK_IMPORTED_MODULE_1___default()(_this), "refHandler", function (node) {
-      Object(_utils__WEBPACK_IMPORTED_MODULE_7__["safeInvoke"])(_this.props.innerRef, node);
+      Object(_utils__WEBPACK_IMPORTED_MODULE_7__["setRef"])(_this.props.innerRef, node);
       Object(_utils__WEBPACK_IMPORTED_MODULE_7__["safeInvoke"])(_this.props.setReferenceNode, node);
     });
 
@@ -13668,7 +16277,7 @@ function (_React$Component) {
   var _proto = InnerReference.prototype;
 
   _proto.componentWillUnmount = function componentWillUnmount() {
-    Object(_utils__WEBPACK_IMPORTED_MODULE_7__["safeInvoke"])(this.props.innerRef, null);
+    Object(_utils__WEBPACK_IMPORTED_MODULE_7__["setRef"])(this.props.innerRef, null);
   };
 
   _proto.render = function render() {
@@ -13682,8 +16291,7 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_4__["Component"]);
 
 function Reference(props) {
-  return react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Manager__WEBPACK_IMPORTED_MODULE_6__["ManagerContext"].Consumer, null, function (_ref) {
-    var setReferenceNode = _ref.setReferenceNode;
+  return react__WEBPACK_IMPORTED_MODULE_4__["createElement"](_Manager__WEBPACK_IMPORTED_MODULE_6__["ManagerReferenceNodeSetterContext"].Consumer, null, function (setReferenceNode) {
     return react__WEBPACK_IMPORTED_MODULE_4__["createElement"](InnerReference, _babel_runtime_helpers_extends__WEBPACK_IMPORTED_MODULE_0___default()({
       setReferenceNode: setReferenceNode
     }, props));
@@ -13724,13 +16332,15 @@ __webpack_require__.r(__webpack_exports__);
 /*!****************************************************!*\
   !*** ./node_modules/react-popper/lib/esm/utils.js ***!
   \****************************************************/
-/*! exports provided: unwrapArray, safeInvoke */
+/*! exports provided: unwrapArray, safeInvoke, shallowEqual, setRef */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "unwrapArray", function() { return unwrapArray; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "safeInvoke", function() { return safeInvoke; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "shallowEqual", function() { return shallowEqual; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setRef", function() { return setRef; });
 /**
  * Takes an argument and if it's an array, returns the first item in the array,
  * otherwise returns the argument. Used for Preact compatibility.
@@ -13751,6 +16361,42 @@ var safeInvoke = function safeInvoke(fn) {
 
     return fn.apply(void 0, args);
   }
+};
+/**
+ * Does a shallow equality check of two objects by comparing the reference
+ * equality of each value.
+ */
+
+var shallowEqual = function shallowEqual(objA, objB) {
+  var aKeys = Object.keys(objA);
+  var bKeys = Object.keys(objB);
+
+  if (bKeys.length !== aKeys.length) {
+    return false;
+  }
+
+  for (var i = 0; i < bKeys.length; i++) {
+    var key = aKeys[i];
+
+    if (objA[key] !== objB[key]) {
+      return false;
+    }
+  }
+
+  return true;
+};
+/**
+ * Sets a ref using either a ref callback or a ref object
+ */
+
+var setRef = function setRef(ref, node) {
+  // if its a function call it
+  if (typeof ref === "function") {
+    return safeInvoke(ref, node);
+  } // otherwise we should treat it as a ref object
+  else if (ref != null) {
+      ref.current = node;
+    }
 };
 
 /***/ }),
@@ -15361,12 +18007,12 @@ exports.classNamesShape = classNamesShape;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_e9ad7d891b372a4221cf ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf */ "dll-reference dll_e9ad7d891b372a4221cf"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -26344,10 +28990,10 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "./src/components/DocumentsLayout.js":
-/*!*******************************************!*\
-  !*** ./src/components/DocumentsLayout.js ***!
-  \*******************************************/
+/***/ "./pages/document.js":
+/*!***************************!*\
+  !*** ./pages/document.js ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -26355,2632 +29001,26 @@ module.exports = function(module) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/index.js");
-/* harmony import */ var _Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Layout */ "./src/components/Layout.js");
-/* harmony import */ var _Sidebar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Sidebar */ "./src/components/Sidebar.js");
-/* harmony import */ var _Sidebar2__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Sidebar2 */ "./src/components/Sidebar2.js");
-/* harmony import */ var _ToggleSide__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ToggleSide */ "./src/components/ToggleSide.js");
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\DocumentsLayout.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-var DocumentsLayout = function DocumentsLayout(_ref) {
-  var children = _ref.children;
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
-      toggle = _useState[0],
-      setToggle = _useState[1];
-
-  return __jsx(_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, __jsx(_Sidebar__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    value: toggle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx(_Sidebar2__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), __jsx(reactstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, children), __jsx(_ToggleSide__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    value: toggle,
-    setToggle: setToggle,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (DocumentsLayout);
-
-/***/ }),
-
-/***/ "./src/components/Header.js":
-/*!**********************************!*\
-  !*** ./src/components/Header.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/head */ "./node_modules/next/dist/next-server/lib/head.js");
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\Header.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var Header = function Header(_ref) {
-  var name = _ref.name;
-  return __jsx(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("meta", {
-    charSet: "UTF-8",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }), __jsx("title", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, name), __jsx("meta", {
-    "data-n-head": "true",
-    "data-hid": "description",
-    name: "description",
-    content: "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E40\u0E17\u0E1E\u0E01\u0E23\u0E35\u0E01-Mythology Greek",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }), __jsx("meta", {
-    "data-n-head": "true",
-    name: "article:author",
-    content: "Mythology Greek",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }), __jsx("meta", {
-    name: "viewport",
-    content: "width=device-width, initial-scale=1",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx("link", {
-    rel: "icon",
-    href: "/static/images/apollo.ico",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), __jsx("link", {
-    href: "https://fonts.googleapis.com/css?family=Mali&display=swap",
-    rel: "stylesheet",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }), __jsx("link", {
-    href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css",
-    rel: "stylesheet",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Header);
-
-/***/ }),
-
-/***/ "./src/components/Layout.js":
-/*!**********************************!*\
-  !*** ./src/components/Layout.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Header__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header */ "./src/components/Header.js");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../style.css */ "./style.css");
-/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_style_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _Navbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Navbar */ "./src/components/Navbar.js");
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\Layout.js";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-
-var Layout = function Layout(_ref) {
-  var children = _ref.children;
-  return __jsx("div", {
-    className: "jsx-1441051418",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    name: "Mythology greek",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), __jsx(_Navbar__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }), children, __jsx(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "1441051418",
-    __self: this
-  }, "body{margin:0;padding:0;font-family:'Mali',cursive;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQkVTVENVTExJTkdcXERlc2t0b3BcXFdlYlRlY2hcXHRlc3QtZGVwbG95LW5leHRqc1xcc3JjXFxjb21wb25lbnRzXFxMYXlvdXQuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBWStCLEFBRzhCLFNBQ0MsVUFDa0IsMkJBQ2hDIiwiZmlsZSI6IkM6XFxVc2Vyc1xcQkVTVENVTExJTkdcXERlc2t0b3BcXFdlYlRlY2hcXHRlc3QtZGVwbG95LW5leHRqc1xcc3JjXFxjb21wb25lbnRzXFxMYXlvdXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZGVyIGZyb20gJy4vSGVhZGVyJ1xyXG5pbXBvcnQgXCIuLi8uLi9zdHlsZS5jc3NcIlxyXG5pbXBvcnQgTmF2YmFyIGZyb20gJy4vTmF2YmFyJ1xyXG5cclxuXHJcbmNvbnN0IExheW91dCA9ICh7IGNoaWxkcmVuIH0pID0+IHtcclxuICAgIHJldHVybiAoXHJcbiAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgPEhlYWRlciBuYW1lPVwiTXl0aG9sb2d5IGdyZWVrXCIgLz5cclxuICAgICAgICAgICAgPE5hdmJhciAvPlxyXG4gICAgICAgICAgICB7Y2hpbGRyZW59XHJcbiAgICAgICAgICAgIFxyXG4gICAgICAgICAgICA8c3R5bGUganN4IGdsb2JhbD57YFxyXG4gICAgICAgICAgICAgICAgYm9keXtcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMDtcclxuICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogJ01hbGknLCBjdXJzaXZlO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApXHJcbn1cclxuXHJcbmV4cG9ydCBkZWZhdWx0IExheW91dCJdfQ== */\n/*@ sourceURL=C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\Layout.js */"));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Layout);
-
-/***/ }),
-
-/***/ "./src/components/Navbar.js":
-/*!**********************************!*\
-  !*** ./src/components/Navbar.js ***!
-  \**********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\Navbar.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-var Navbar = function Navbar() {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(false),
-      active = _useState[0],
-      isActive = _useState[1];
-
-  return __jsx("nav", {
-    className: "navbar navbar-expand-sm navbar-light bg-white",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "container",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "navbar-brand",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("img", {
-    src: "/static/images/poseidon.png",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), "Mythology greek")), __jsx("button", {
-    onClick: function onClick() {
-      return isActive(!active);
-    },
-    className: "navbar-toggler",
-    type: "button",
-    "data-toggle": "collapse",
-    "data-target": "#navbarNav",
-    "aria-controls": "navbarNav",
-    "aria-expanded": String(active),
-    "aria-label": "Toggle navigation",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("span", {
-    className: "navbar-toggler-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12
-    },
-    __self: this
-  }), __jsx("span", {
-    className: "navbar-toggler-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }), __jsx("span", {
-    className: "navbar-toggler-icon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  })), __jsx("div", {
-    className: active === false ? "collapse navbar-collapse" : "collapse navbar-collapse show",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("ul", {
-    className: "navbar-nav ml-auto",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("span", {
-    "data-hover": "About",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "\u0E2B\u0E19\u0E49\u0E32\u0E2B\u0E25\u0E31\u0E01")))), __jsx("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/document",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx("span", {
-    "data-hover": "About",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23")))), __jsx("li", {
-    className: "nav-item",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "nav-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, __jsx("span", {
-    "data-hover": "Projects",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }, "\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A"))))))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Navbar);
-
-/***/ }),
-
-/***/ "./src/components/Sidebar.js":
-/*!***********************************!*\
-  !*** ./src/components/Sidebar.js ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _articles_One__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./articles/One */ "./src/components/articles/One.js");
-/* harmony import */ var _articles_Two__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./articles/Two */ "./src/components/articles/Two.js");
-/* harmony import */ var _articles_Three__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./articles/Three */ "./src/components/articles/Three.js");
-/* harmony import */ var _articles_Four__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./articles/Four */ "./src/components/articles/Four.js");
-/* harmony import */ var _articles_Five__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./articles/Five */ "./src/components/articles/Five.js");
-/* harmony import */ var _articles_Six__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./articles/Six */ "./src/components/articles/Six.js");
-/* harmony import */ var _articles_Seven__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./articles/Seven */ "./src/components/articles/Seven.js");
-/* harmony import */ var _articles_Eight__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./articles/Eight */ "./src/components/articles/Eight.js");
-/* harmony import */ var _articles_Nine__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./articles/Nine */ "./src/components/articles/Nine.js");
-/* harmony import */ var _articles_Ten__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./articles/Ten */ "./src/components/articles/Ten.js");
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\Sidebar.js";
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-
-
-
-
-
-
-
-
-
-
-
-var Sidebar = function Sidebar(_ref) {
-  var value = _ref.value;
-  return __jsx("div", {
-    className: "sidebar mt-3",
-    style: {
-      display: value ? "block" : "none"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "sidebar-inner",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "list",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, "Guide"), __jsx("p", {
-    className: "menu-root",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/document",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "sidebar-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "Mythology Greek")), __jsx(_articles_One__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }), __jsx(_articles_Two__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }), __jsx(_articles_Three__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }), __jsx(_articles_Four__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }), __jsx(_articles_Five__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }), __jsx(_articles_Six__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }), __jsx(_articles_Seven__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }), __jsx(_articles_Eight__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    },
-    __self: this
-  }), __jsx(_articles_Nine__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }), __jsx(_articles_Ten__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Sidebar);
-
-/***/ }),
-
-/***/ "./src/components/Sidebar2.js":
-/*!************************************!*\
-  !*** ./src/components/Sidebar2.js ***!
-  \************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _articles_One__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./articles/One */ "./src/components/articles/One.js");
-/* harmony import */ var _articles_Two__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./articles/Two */ "./src/components/articles/Two.js");
-/* harmony import */ var _articles_Three__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./articles/Three */ "./src/components/articles/Three.js");
-/* harmony import */ var _articles_Four__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./articles/Four */ "./src/components/articles/Four.js");
-/* harmony import */ var _articles_Five__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./articles/Five */ "./src/components/articles/Five.js");
-/* harmony import */ var _articles_Six__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./articles/Six */ "./src/components/articles/Six.js");
-/* harmony import */ var _articles_Seven__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./articles/Seven */ "./src/components/articles/Seven.js");
-/* harmony import */ var _articles_Eight__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./articles/Eight */ "./src/components/articles/Eight.js");
-/* harmony import */ var _articles_Nine__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./articles/Nine */ "./src/components/articles/Nine.js");
-/* harmony import */ var _articles_Ten__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./articles/Ten */ "./src/components/articles/Ten.js");
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\Sidebar2.js";
+/* harmony import */ var _components_DocumentsLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DocumentsLayout */ "./components/DocumentsLayout.js");
+/* harmony import */ var _assets_documents_1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../assets/documents/1.jpg */ "./assets/documents/1.jpg");
+/* harmony import */ var _assets_documents_1_jpg__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_assets_documents_1_jpg__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _assets_documents_2_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../assets/documents/2.jpg */ "./assets/documents/2.jpg");
+/* harmony import */ var _assets_documents_2_jpg__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_assets_documents_2_jpg__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _assets_documents_3_jpg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../assets/documents/3.jpg */ "./assets/documents/3.jpg");
+/* harmony import */ var _assets_documents_3_jpg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_assets_documents_3_jpg__WEBPACK_IMPORTED_MODULE_4__);
+var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\test\\pages\\document.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-
-
-
-
-
-
-
-var Sidebar2 = function Sidebar2() {
-  return __jsx("div", {
-    className: "sidebar2 mt-3",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "sidebar-inner2",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "list",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "Guide"), __jsx("p", {
-    className: "menu-root",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "\u0E40\u0E2D\u0E01\u0E2A\u0E32\u0E23"), __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/document",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "sidebar-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21
-    },
-    __self: this
-  }, "Mythology Greek")), __jsx(_articles_One__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }), __jsx(_articles_Two__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }), __jsx(_articles_Three__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }), __jsx(_articles_Four__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 25
-    },
-    __self: this
-  }), __jsx(_articles_Five__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26
-    },
-    __self: this
-  }), __jsx(_articles_Six__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 27
-    },
-    __self: this
-  }), __jsx(_articles_Seven__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }), __jsx(_articles_Eight__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }), __jsx(_articles_Nine__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }), __jsx(_articles_Ten__WEBPACK_IMPORTED_MODULE_11__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Sidebar2);
-
-/***/ }),
-
-/***/ "./src/components/ToggleSide.js":
-/*!**************************************!*\
-  !*** ./src/components/ToggleSide.js ***!
-  \**************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\ToggleSide.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-var ToggleSide = function ToggleSide(_ref) {
-  var value = _ref.value,
-      setToggle = _ref.setToggle;
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, value ? __jsx("button", {
-    onClick: function onClick() {
-      return setToggle(!value);
-    },
-    className: "toggle-sidebar",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "fas fa-times",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  })) : __jsx("button", {
-    onClick: function onClick() {
-      return setToggle(!value);
-    },
-    className: "toggle-sidebar",
-    type: "button",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("i", {
-    className: "fas fa-angle-up",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), __jsx("i", {
-    className: "fas fa-angle-down",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  })));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ToggleSide);
-
-/***/ }),
-
-/***/ "./src/components/articles/Eight.js":
-/*!******************************************!*\
-  !*** ./src/components/articles/Eight.js ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Eight.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Eight = function Eight() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E01\u0E31\u0E1A\u0E21\u0E19\u0E38\u0E29\u0E22\u0E4C"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/godandhuman/hestia",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E35\u0E41\u0E2B\u0E48\u0E07\u0E40\u0E15\u0E32\u0E44\u0E1F\u0E1C\u0E39\u0E49\u0E04\u0E38\u0E49\u0E21\u0E04\u0E23\u0E2D\u0E07\u0E1A\u0E49\u0E32\u0E19\u0E40\u0E23\u0E37\u0E2D\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/godandhuman/cupid",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E04\u0E27\u0E32\u0E21\u0E23\u0E31\u0E01 \u0E04\u0E34\u0E27\u0E1B\u0E34\u0E14\u0E40\u0E40\u0E25\u0E30\u0E44\u0E0B\u0E04\u0E35"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/godandhuman/pandora",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E42\u0E25\u0E01 \u201C\u0E01\u0E25\u0E48\u0E2D\u0E07\u0E41\u0E1E\u0E19\u0E42\u0E14\u0E23\u0E48\u0E32\u201D \u0E01\u0E25\u0E48\u0E2D\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E2B\u0E32\u0E22\u0E19\u0E30"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/godandhuman/helen",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E40\u0E2E\u0E40\u0E25\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E17\u0E23\u0E2D\u0E22")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Eight);
-
-/***/ }),
-
-/***/ "./src/components/articles/Five.js":
-/*!*****************************************!*\
-  !*** ./src/components/articles/Five.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Five.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Five = function Five() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/constellations/orion",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27\u0E19\u0E32\u0E22\u0E1E\u0E23\u0E32\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/constellations/taurus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27\u0E27\u0E31\u0E27"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/constellations/ursa",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E2B\u0E21\u0E39\u0E48\u0E14\u0E32\u0E27\u0E2B\u0E21\u0E35\u0E19\u0E49\u0E2D\u0E22\u0E14\u0E32\u0E27\u0E2B\u0E21\u0E35\u0E43\u0E2B\u0E0D\u0E48"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/constellations/ophiuchus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "\u0E01\u0E25\u0E38\u0E48\u0E21\u0E14\u0E32\u0E27\u0E04\u0E19\u0E41\u0E1A\u0E01\u0E07\u0E39"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/constellations/galaxies",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "\u0E23\u0E30\u0E1A\u0E1A\u0E2A\u0E38\u0E23\u0E34\u0E22\u0E30\u0E01\u0E31\u0E1A\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Five);
-
-/***/ }),
-
-/***/ "./src/components/articles/Four.js":
-/*!*****************************************!*\
-  !*** ./src/components/articles/Four.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Four.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Four = function Four() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E23\u0E32\u0E28\u0E35"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/capricorn",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E21\u0E31\u0E07\u0E01\u0E23"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/apuarius",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E01\u0E38\u0E21\u0E20\u0E4C"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/pisces",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E21\u0E35\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/aries",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E40\u0E21\u0E29"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/taurus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E1E\u0E24\u0E01\u0E29\u0E20"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/gemini",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E40\u0E21\u0E16\u0E38\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/cancer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E01\u0E23\u0E01\u0E0E"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/leo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E2A\u0E34\u0E07\u0E2B\u0E4C"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/virgo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E01\u0E31\u0E19\u0E22\u0E4C"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/libra",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E15\u0E38\u0E25\u0E22\u0E4C"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/scorpio",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E1E\u0E34\u0E08\u0E34\u0E01"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/zodiac/sagittarius",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E28\u0E35\u0E18\u0E19\u0E39")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Four);
-
-/***/ }),
-
-/***/ "./src/components/articles/Nine.js":
-/*!*****************************************!*\
-  !*** ./src/components/articles/Nine.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Nine.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Nine = function Nine() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E27\u0E35\u0E23\u0E1A\u0E38\u0E23\u0E38\u0E29"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/hero/heracles",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "\u0E40\u0E2E\u0E23\u0E32\u0E04\u0E25\u0E35\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/hero/achilles",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "\u0E2D\u0E04\u0E34\u0E25\u0E25\u0E35\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/hero/perseus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E40\u0E1E\u0E2D\u0E23\u0E4C\u0E0B\u0E35\u0E2D\u0E38\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/hero/oedipus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "\u0E2D\u0E35\u0E14\u0E34\u0E1B\u0E31\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/hero/theseus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "\u0E18\u0E35\u0E2A\u0E34\u0E2D\u0E38\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/hero/bellerophon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "\u0E40\u0E1A\u0E25\u0E40\u0E25\u0E42\u0E23\u0E1F\u0E2D\u0E19")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Nine);
-
-/***/ }),
-
-/***/ "./src/components/articles/One.js":
-/*!****************************************!*\
-  !*** ./src/components/articles/One.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\One.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var One = function One() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E1B\u0E10\u0E21\u0E15\u0E33\u0E19\u0E32\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E08\u0E31\u0E01\u0E23\u0E27\u0E32\u0E25"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/primal-universe/emptiness",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E41\u0E2B\u0E48\u0E07\u0E04\u0E27\u0E32\u0E21\u0E27\u0E48\u0E32\u0E07\u0E40\u0E1B\u0E25\u0E48\u0E32"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/primal-universe/groundandsky",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "\u0E1E\u0E37\u0E49\u0E19\u0E14\u0E34\u0E19\u0E41\u0E25\u0E30\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/primal-universe/titan",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "\u0E44\u0E17\u0E17\u0E31\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/primal-universe/birthgods",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E01\u0E33\u0E40\u0E19\u0E34\u0E14\u0E23\u0E32\u0E0A\u0E32\u0E41\u0E2B\u0E48\u0E07\u0E17\u0E27\u0E22\u0E40\u0E17\u0E1E")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (One);
-
-/***/ }),
-
-/***/ "./src/components/articles/Seven.js":
-/*!******************************************!*\
-  !*** ./src/components/articles/Seven.js ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Seven.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Seven = function Seven() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E40\u0E01\u0E34\u0E14\u0E18\u0E23\u0E23\u0E21\u0E0A\u0E32\u0E15\u0E34"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/nature/flower",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "\u0E14\u0E2D\u0E01\u0E44\u0E21\u0E49\u0E08\u0E32\u0E01\u0E15\u0E33\u0E19\u0E32\u0E19\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E01\u0E23\u0E35\u0E01"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/nature/echo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "\u0E40\u0E2D\u0E04\u0E42\u0E04\u0E48"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/nature/crown",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E25\u0E2D\u0E40\u0E23\u0E25\u0E21\u0E07\u0E01\u0E38\u0E0F\u0E02\u0E2D\u0E07\u0E2D\u0E1E\u0E2D\u0E25\u0E42\u0E25"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/nature/delphi",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "\u0E19\u0E49\u0E33\u0E1E\u0E38\u0E17\u0E35\u0E48\u0E40\u0E14\u0E25\u0E1F\u0E35"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/nature/arachna",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "\u0E01\u0E33\u0E40\u0E19\u0E34\u0E14\u0E41\u0E21\u0E07\u0E21\u0E38\u0E21 \u0E2D\u0E32\u0E23\u0E31\u0E04\u0E40\u0E19\u0E48")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Seven);
-
-/***/ }),
-
-/***/ "./src/components/articles/Six.js":
-/*!****************************************!*\
-  !*** ./src/components/articles/Six.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Six.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Six = function Six() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E04\u0E27\u0E32\u0E21\u0E40\u0E0A\u0E37\u0E48\u0E2D\u0E43\u0E19\u0E14\u0E34\u0E19\u0E41\u0E14\u0E19\u0E1B\u0E23\u0E42\u0E25\u0E01"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/worldofdeath/hades",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "\u0E2E\u0E32\u0E40\u0E14\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/worldofdeath/kingdom",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "\u0E2D\u0E32\u0E13\u0E32\u0E08\u0E31\u0E01\u0E23\u0E22\u0E21\u0E42\u0E25\u0E01"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/worldofdeath/cerberus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E2B\u0E21\u0E32\u0E41\u0E2B\u0E48\u0E07\u0E19\u0E23\u0E01"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/worldofdeath/moirae",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E35\u0E1C\u0E39\u0E49\u0E1B\u0E31\u0E48\u0E19\u0E14\u0E49\u0E32\u0E22\u0E41\u0E2B\u0E48\u0E07\u0E42\u0E0A\u0E04\u0E0A\u0E30\u0E15\u0E32"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/worldofdeath/persephone",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "\u0E23\u0E32\u0E0A\u0E34\u0E19\u0E35\u0E1C\u0E39\u0E49\u0E40\u0E25\u0E2D\u0E42\u0E09\u0E21\u0E41\u0E2B\u0E48\u0E07\u0E1B\u0E23\u0E42\u0E25\u0E01"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/worldofdeath/orpheus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "\u0E40\u0E1E\u0E25\u0E07\u0E1E\u0E34\u0E13\u0E01\u0E25\u0E48\u0E2D\u0E21\u0E22\u0E21\u0E42\u0E25\u0E01")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Six);
-
-/***/ }),
-
-/***/ "./src/components/articles/Ten.js":
-/*!****************************************!*\
-  !*** ./src/components/articles/Ten.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Ten.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Ten = function Ten() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E2D\u0E2A\u0E39\u0E23\u0E01\u0E32\u0E22"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/monster/typhon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, "\u0E44\u0E17\u0E1F\u0E2D\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/monster/sphinx",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "\u0E2A\u0E1F\u0E23\u0E34\u0E07\u0E0B\u0E4C"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/monster/hydra",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E44\u0E2E\u0E14\u0E23\u0E32"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/monster/chimera",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    },
-    __self: this
-  }, "\u0E44\u0E04\u0E40\u0E21\u0E23\u0E48\u0E32"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 36
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/monster/lycaon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 37
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, "\u0E44\u0E25\u0E04\u0E32\u0E2D\u0E31\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/monster/medusa",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 45
-    },
-    __self: this
-  }, "\u0E40\u0E21\u0E14\u0E39\u0E0B\u0E48\u0E32")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Ten);
-
-/***/ }),
-
-/***/ "./src/components/articles/Three.js":
-/*!******************************************!*\
-  !*** ./src/components/articles/Three.js ***!
-  \******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Three.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Three = function Three() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E15\u0E33\u0E19\u0E32\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E21\u0E2B\u0E32\u0E2A\u0E21\u0E38\u0E17\u0E23"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/ocean/godofocean",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E41\u0E2B\u0E48\u0E07\u0E21\u0E2B\u0E32\u0E2A\u0E21\u0E38\u0E17\u0E23"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/ocean/siren",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "\u0E44\u0E0B\u0E40\u0E23\u0E19 \u0E40\u0E2A\u0E35\u0E22\u0E07\u0E40\u0E1E\u0E25\u0E07\u0E41\u0E2B\u0E48\u0E07\u0E21\u0E23\u0E13\u0E30"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/ocean/charybdis-and-scylla",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "\u0E04\u0E32\u0E23\u0E34\u0E1A\u0E14\u0E34\u0E2A\u0E41\u0E25\u0E30\u0E0B\u0E34\u0E25\u0E25\u0E32 \u0E2A\u0E2D\u0E07\u0E2D\u0E2A\u0E38\u0E23\u0E35\u0E41\u0E2B\u0E48\u0E07\u0E17\u0E49\u0E2D\u0E07\u0E17\u0E30\u0E40\u0E25")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Three);
-
-/***/ }),
-
-/***/ "./src/components/articles/Two.js":
-/*!****************************************!*\
-  !*** ./src/components/articles/Two.js ***!
-  \****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\components\\articles\\Two.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-
-var Two = function Two() {
-  return __jsx("div", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("p", {
-    className: "sidebar-link current",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, "\u0E42\u0E2D\u0E25\u0E34\u0E21\u0E1B\u0E31\u0E2A \u0E2A\u0E27\u0E23\u0E23\u0E04\u0E4C\u0E41\u0E2B\u0E48\u0E07\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32"), __jsx("ul", {
-    className: "menu-sub",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/zeus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#What-is-Vue-js",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E0B\u0E38\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 13
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/dimiter",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Getting-Started",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E35\u0E14\u0E34\u0E21\u0E34\u0E40\u0E17\u0E2D\u0E23\u0E4C"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/hera",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Declarative-Rendering",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E35\u0E40\u0E2E\u0E23\u0E32"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 23
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/ares",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E41\u0E2D\u0E23\u0E35\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/apollo",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 29
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E2D\u0E1E\u0E2D\u0E25\u0E42\u0E25"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/artemis",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E2D\u0E32\u0E23\u0E4C\u0E40\u0E17\u0E21\u0E35\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 38
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/hermes",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 39
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E40\u0E2E\u0E2D\u0E23\u0E4C\u0E40\u0E21\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 43
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/athena",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 44
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E35\u0E2D\u0E18\u0E35\u0E19\u0E32"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 48
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/aphrodite",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 49
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E35\u0E2D\u0E30\u0E42\u0E1E\u0E23\u0E4C\u0E44\u0E14\u0E17\u0E4C"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 53
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/hephaestus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 54
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E40\u0E2E\u0E40\u0E1F\u0E2A\u0E15\u0E31\u0E2A"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/dionysus",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 59
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32\u0E44\u0E14\u0E2D\u0E30\u0E44\u0E19\u0E40\u0E0B\u0E34\u0E25"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/poseidon",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    },
-    __self: this
-  }, "\u0E40\u0E17\u0E1E\u0E42\u0E1E\u0E44\u0E0B\u0E14\u0E2D\u0E19"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 68
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/olympus-to-olympics",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 69
-    },
-    __self: this
-  }, "\u0E42\u0E2D\u0E25\u0E34\u0E21\u0E1B\u0E31\u0E2A\u0E2A\u0E39\u0E48\u0E42\u0E2D\u0E25\u0E34\u0E21\u0E1B\u0E34\u0E01"))), __jsx("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 73
-    },
-    __self: this
-  }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
-    href: "/articles/olympus/atlas",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, __jsx("a", {
-    className: "section-link",
-    "data-scroll": "",
-    href: "#Conditionals-and-Loops",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 74
-    },
-    __self: this
-  }, "\u0E41\u0E2D\u0E15\u0E25\u0E32\u0E2A\u0E41\u0E1A\u0E01\u0E17\u0E49\u0E2D\u0E07\u0E1F\u0E49\u0E32")))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Two);
-
-/***/ }),
-
-/***/ "./src/pages/document.js":
-/*!*******************************!*\
-  !*** ./src/pages/document.js ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_DocumentsLayout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/DocumentsLayout */ "./src/components/DocumentsLayout.js");
-var _jsxFileName = "C:\\Users\\BESTCULLING\\Desktop\\WebTech\\test-deploy-nextjs\\src\\pages\\document.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 var Document = function Document() {
   return __jsx(_components_DocumentsLayout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 8
     },
     __self: this
   }, __jsx("h3", {
@@ -28990,61 +29030,61 @@ var Document = function Document() {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 9
     },
     __self: this
   }, "\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E01\u0E23\u0E35\u0E01  ( Greek-Roman Mythology )"), __jsx("p", {
     className: "ml-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 10
     },
     __self: this
   }, " \u0E40\u0E1B\u0E47\u0E19\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E23\u0E22\u0E18\u0E23\u0E23\u0E21\u0E01\u0E23\u0E35\u0E01\u0E42\u0E1A\u0E23\u0E32\u0E13 \u0E0B\u0E36\u0E48\u0E07\u0E21\u0E35\u0E40\u0E19\u0E37\u0E49\u0E2D\u0E2B\u0E32\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E19\u0E34\u0E17\u0E32\u0E19\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E41\u0E25\u0E30\u0E15\u0E33\u0E19\u0E32\u0E19\u0E17\u0E35\u0E48\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E02\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E1A\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32, \u0E27\u0E35\u0E23\u0E1A\u0E38\u0E23\u0E38\u0E29, \u0E18\u0E23\u0E23\u0E21\u0E0A\u0E32\u0E15\u0E34\u0E02\u0E2D\u0E07\u0E42\u0E25\u0E01 \u0E23\u0E27\u0E21\u0E16\u0E36\u0E07\u0E08\u0E38\u0E14\u0E01\u0E33\u0E40\u0E19\u0E34\u0E14\u0E41\u0E25\u0E30\u0E04\u0E27\u0E32\u0E21\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E02\u0E2D\u0E07\u0E02\u0E19\u0E1A \u0E04\u0E15\u0E34\u0E41\u0E25\u0E30\u0E08\u0E32\u0E23\u0E35\u0E15\u0E1E\u0E34\u0E18\u0E35\u0E43\u0E19\u0E17\u0E32\u0E07\u0E28\u0E32\u0E2A\u0E19\u0E32\u0E02\u0E2D\u0E07\u0E0A\u0E32\u0E27\u0E01\u0E23\u0E35\u0E01\u0E42\u0E1A\u0E23\u0E32\u0E13 \u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E01\u0E23\u0E35\u0E01\u0E40\u0E1B\u0E47\u0E19\u0E2A\u0E48\u0E27\u0E19\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E28\u0E32\u0E2A\u0E19\u0E32\u0E43\u0E19\u0E01\u0E23\u0E35\u0E0B\u0E42\u0E1A\u0E23\u0E32\u0E13 \u0E19\u0E31\u0E01\u0E27\u0E34\u0E0A\u0E32\u0E01\u0E32\u0E23\u0E2A\u0E21\u0E31\u0E22\u0E43\u0E2B\u0E21\u0E48\u0E21\u0E31\u0E01\u0E2D\u0E49\u0E32\u0E07\u0E16\u0E36\u0E07\u0E41\u0E25\u0E30\u0E28\u0E36\u0E01\u0E29\u0E32\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49 \u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E17\u0E35\u0E48\u0E08\u0E30\u0E17\u0E23\u0E32\u0E1A\u0E40\u0E01\u0E35\u0E48\u0E22\u0E27\u0E01\u0E31\u0E1A\u0E2A\u0E16\u0E32\u0E1A\u0E31\u0E19\u0E17\u0E32\u0E07\u0E28\u0E32\u0E2A\u0E19\u0E32, \u0E2A\u0E16\u0E32\u0E1A\u0E31\u0E19\u0E17\u0E32\u0E07\u0E01\u0E32\u0E23\u0E40\u0E21\u0E37\u0E2D\u0E07\u0E43\u0E19\u0E01\u0E23\u0E35\u0E0B\u0E42\u0E1A\u0E23\u0E32\u0E13, \u0E2D\u0E32\u0E23\u0E22\u0E18\u0E23\u0E23\u0E21\u0E02\u0E2D\u0E07\u0E0A\u0E32\u0E27\u0E01\u0E23\u0E35\u0E01 \u0E41\u0E25\u0E30\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E04\u0E27\u0E32\u0E21\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08\u0E43\u0E19\u0E18\u0E23\u0E23\u0E21\u0E0A\u0E32\u0E15\u0E34\u0E02\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E2A\u0E23\u0E49\u0E32\u0E07\u0E15\u0E33\u0E19\u0E32\u0E19\u0E1B\u0E23\u0E30\u0E21\u0E27\u0E25\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E02\u0E36\u0E49\u0E19"), __jsx("p", {
     className: "ml-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 18
     },
     __self: this
   }, "\u0E23\u0E27\u0E1A\u0E23\u0E27\u0E21\u0E02\u0E36\u0E49\u0E19\u0E08\u0E32\u0E01\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E40\u0E25\u0E48\u0E32\u0E41\u0E25\u0E30\u0E28\u0E34\u0E25\u0E1B\u0E30\u0E17\u0E35\u0E48\u0E41\u0E2A\u0E14\u0E07\u0E2D\u0E2D\u0E01\u0E43\u0E19\u0E27\u0E31\u0E12\u0E19\u0E18\u0E23\u0E23\u0E21\u0E01\u0E23\u0E35\u0E01 \u0E40\u0E0A\u0E48\u0E19 \u0E01\u0E32\u0E23\u0E23\u0E30\u0E1A\u0E32\u0E22\u0E2A\u0E35\u0E41\u0E08\u0E01\u0E31\u0E19\u0E41\u0E25\u0E30\u0E02\u0E2D\u0E07\u0E41\u0E01\u0E49\u0E1A\u0E19 \u0E15\u0E33\u0E19\u0E32\u0E19\u0E01\u0E23\u0E35\u0E01\u0E2D\u0E18\u0E34\u0E1A\u0E32\u0E22\u0E16\u0E36\u0E07\u0E01\u0E32\u0E23\u0E16\u0E37\u0E2D\u0E01\u0E33\u0E40\u0E19\u0E34\u0E14\u0E02\u0E2D\u0E07\u0E42\u0E25\u0E01 \u0E41\u0E25\u0E30\u0E23\u0E32\u0E22\u0E25\u0E30\u0E40\u0E2D\u0E35\u0E22\u0E14\u0E02\u0E2D\u0E07\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E23\u0E32\u0E27\u0E43\u0E19\u0E0A\u0E35\u0E27\u0E34\u0E15 \u0E41\u0E25\u0E30\u0E01\u0E32\u0E23\u0E1C\u0E08\u0E0D\u0E20\u0E31\u0E22\u0E02\u0E2D\u0E07\u0E1A\u0E23\u0E23\u0E14\u0E32\u0E40\u0E17\u0E1E\u0E40\u0E08\u0E49\u0E32 \u0E40\u0E17\u0E1E\u0E18\u0E34\u0E14\u0E32 \u0E27\u0E35\u0E23\u0E1A\u0E38\u0E23\u0E38\u0E29 \u0E27\u0E35\u0E23\u0E2A\u0E15\u0E23\u0E35 \u0E41\u0E25\u0E30\u0E2A\u0E34\u0E48\u0E07\u0E21\u0E35\u0E0A\u0E35\u0E27\u0E34\u0E15\u0E43\u0E19\u0E15\u0E33\u0E19\u0E32\u0E19\u0E2D\u0E37\u0E48\u0E19 \u0E46 \u0E0B\u0E36\u0E48\u0E07\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E23\u0E32\u0E27\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49\u0E43\u0E19\u0E15\u0E2D\u0E19\u0E41\u0E23\u0E01\u0E40\u0E1B\u0E47\u0E19\u0E40\u0E1E\u0E35\u0E22\u0E07\u0E01\u0E32\u0E23\u0E2A\u0E37\u0E1A\u0E17\u0E2D\u0E14\u0E1C\u0E48\u0E32\u0E19\u0E1A\u0E17\u0E01\u0E27\u0E35\u0E15\u0E32\u0E21\u0E1B\u0E23\u0E30\u0E40\u0E1E\u0E13\u0E35\u0E21\u0E38\u0E02\u0E1B\u0E32\u0E10\u0E30 \u0E40\u0E17\u0E48\u0E32\u0E19\u0E31\u0E49\u0E19 \u0E0B\u0E36\u0E48\u0E07\u0E2D\u0E32\u0E08\u0E2A\u0E37\u0E1A\u0E22\u0E49\u0E2D\u0E19\u0E2B\u0E25\u0E31\u0E07\u0E44\u0E1B\u0E44\u0E14\u0E49\u0E16\u0E36\u0E07\u0E2A\u0E21\u0E31\u0E22\u0E44\u0E21\u0E19\u0E2D\u0E2A \u0E41\u0E25\u0E30\u0E2A\u0E21\u0E31\u0E22\u0E44\u0E21\u0E0B\u0E35\u0E19\u0E35 \u0E15\u0E31\u0E49\u0E07\u0E41\u0E15\u0E48\u0E28\u0E15\u0E27\u0E23\u0E23\u0E29\u0E17\u0E35\u0E48 18 \u0E01\u0E48\u0E2D\u0E19\u0E04.\u0E28."), __jsx("img", {
     className: "img-doc",
-    src: "/static/images/documents/1.jpg",
+    src: _assets_documents_1_jpg__WEBPACK_IMPORTED_MODULE_2___default.a,
     alt: "1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 25
     },
     __self: this
   }), __jsx("p", {
     className: "ml-3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 26
     },
     __self: this
   }, "  \u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E01\u0E23\u0E35\u0E01\u0E21\u0E35\u0E2D\u0E34\u0E17\u0E18\u0E34\u0E1E\u0E25\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E21\u0E32\u0E01\u0E15\u0E48\u0E2D\u0E27\u0E31\u0E12\u0E19\u0E18\u0E23\u0E23\u0E21 \u0E28\u0E34\u0E25\u0E1B\u0E30 \u0E41\u0E25\u0E30\u0E27\u0E23\u0E23\u0E13\u0E01\u0E23\u0E23\u0E21\u0E02\u0E2D\u0E07\u0E2D\u0E32\u0E23\u0E22\u0E18\u0E23\u0E23\u0E21\u0E15\u0E30\u0E27\u0E31\u0E19\u0E15\u0E01 \u0E23\u0E27\u0E21\u0E16\u0E36\u0E07\u0E21\u0E23\u0E14\u0E01\u0E41\u0E25\u0E30\u0E20\u0E32\u0E29\u0E32\u0E17\u0E32\u0E07\u0E15\u0E30\u0E27\u0E31\u0E19\u0E15\u0E01\u0E14\u0E49\u0E27\u0E22 \u0E01\u0E27\u0E35\u0E41\u0E25\u0E30\u0E28\u0E34\u0E25\u0E1B\u0E34\u0E19\u0E21\u0E32\u0E01\u0E21\u0E32\u0E22\u0E19\u0E31\u0E1A\u0E41\u0E15\u0E48\u0E22\u0E38\u0E04\u0E42\u0E1A\u0E23\u0E32\u0E13\u0E08\u0E19\u0E16\u0E36\u0E07\u0E1B\u0E31\u0E08\u0E08\u0E38\u0E1A\u0E31\u0E19\u0E44\u0E14\u0E49\u0E23\u0E31\u0E1A\u0E41\u0E23\u0E07\u0E1A\u0E31\u0E19\u0E14\u0E32\u0E25\u0E43\u0E08\u0E08\u0E32\u0E01\u0E1B\u0E23\u0E30\u0E21\u0E27\u0E25\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E01\u0E23\u0E35\u0E01 \u0E41\u0E25\u0E30\u0E44\u0E14\u0E49\u0E04\u0E34\u0E14\u0E04\u0E49\u0E19\u0E19\u0E31\u0E22\u0E22\u0E30\u0E23\u0E48\u0E27\u0E21\u0E2A\u0E21\u0E31\u0E22\u0E01\u0E31\u0E1A\u0E01\u0E32\u0E23\u0E15\u0E35\u0E04\u0E27\u0E32\u0E21\u0E43\u0E2B\u0E21\u0E48\u0E17\u0E35\u0E48\u0E2A\u0E31\u0E21\u0E1E\u0E31\u0E19\u0E18\u0E4C\u0E01\u0E31\u0E1A\u0E15\u0E33\u0E19\u0E32\u0E19\u0E1B\u0E23\u0E31\u0E21\u0E1B\u0E23\u0E32\u0E40\u0E2B\u0E25\u0E48\u0E32\u0E19\u0E35\u0E49"), __jsx("img", {
     className: "img-doc",
-    src: "/static/images/documents/2.jpg",
+    src: _assets_documents_2_jpg__WEBPACK_IMPORTED_MODULE_3___default.a,
     alt: "2",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 31
     },
     __self: this
   }), __jsx("hr", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 32
     },
     __self: this
   }), __jsx("img", {
     className: "img-doc",
-    src: "/static/images/documents/3.jpg",
+    src: _assets_documents_3_jpg__WEBPACK_IMPORTED_MODULE_4___default.a,
     alt: "3",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 33
     },
     __self: this
   }));
@@ -29054,28 +29094,28 @@ var Document = function Document() {
 
 /***/ }),
 
-/***/ 4:
-/*!************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5CWebTech%5Ctest-deploy-nextjs%5Csrc%5Cpages%5Cdocument.js ***!
-  \************************************************************************************************************************************************************************/
+/***/ 0:
+/*!******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5Ctest%5Cpages%5Cdocument.js ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5CWebTech%5Ctest-deploy-nextjs%5Csrc%5Cpages%5Cdocument.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5CWebTech%5Ctest-deploy-nextjs%5Csrc%5Cpages%5Cdocument.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5Ctest%5Cpages%5Cdocument.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fdocument&absolutePagePath=C%3A%5CUsers%5CBESTCULLING%5CDesktop%5Ctest%5Cpages%5Cdocument.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_129a35c7ec57967eb265":
+/***/ "dll-reference dll_e9ad7d891b372a4221cf":
 /*!*******************************************!*\
-  !*** external "dll_129a35c7ec57967eb265" ***!
+  !*** external "dll_e9ad7d891b372a4221cf" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_129a35c7ec57967eb265;
+module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
-},[[4,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=document.js.map

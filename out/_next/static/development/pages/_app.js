@@ -684,7 +684,7 @@ module.exports = function (it) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.9' };
+var core = module.exports = { version: '2.6.10' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -3294,7 +3294,6 @@ function execOnce(fn) {
   var _this = this;
 
   var used = false;
-  var result = null;
   return function () {
     if (!used) {
       used = true;
@@ -3303,10 +3302,8 @@ function execOnce(fn) {
         args[_key] = arguments[_key];
       }
 
-      result = fn.apply(_this, args);
+      fn.apply(_this, args);
     }
-
-    return result;
   };
 }
 
@@ -3349,7 +3346,7 @@ function loadGetInitialProps(_x, _x2) {
 function _loadGetInitialProps() {
   _loadGetInitialProps = _asyncToGenerator(
   /*#__PURE__*/
-  _regeneratorRuntime.mark(function _callee(App, ctx) {
+  _regeneratorRuntime.mark(function _callee(Component, ctx) {
     var message, res, props, _message;
 
     return _regeneratorRuntime.wrap(function _callee$(_context) {
@@ -3358,73 +3355,58 @@ function _loadGetInitialProps() {
           case 0:
             if (false) {}
 
-            if (!(App.prototype && App.prototype.getInitialProps)) {
+            if (!(Component.prototype && Component.prototype.getInitialProps)) {
               _context.next = 4;
               break;
             }
 
-            message = "\"".concat(getDisplayName(App), ".getInitialProps()\" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.");
+            message = "\"".concat(getDisplayName(Component), ".getInitialProps()\" is defined as an instance method - visit https://err.sh/zeit/next.js/get-initial-props-as-an-instance-method for more information.");
             throw new Error(message);
 
           case 4:
             // when called from _app `ctx` is nested in `ctx`
             res = ctx.res || ctx.ctx && ctx.ctx.res;
 
-            if (App.getInitialProps) {
-              _context.next = 12;
+            if (Component.getInitialProps) {
+              _context.next = 7;
               break;
             }
 
-            if (!(ctx.ctx && ctx.Component)) {
-              _context.next = 11;
-              break;
-            }
-
-            _context.next = 9;
-            return loadGetInitialProps(ctx.Component, ctx.ctx);
-
-          case 9:
-            _context.t0 = _context.sent;
-            return _context.abrupt("return", {
-              pageProps: _context.t0
-            });
-
-          case 11:
             return _context.abrupt("return", {});
 
-          case 12:
-            _context.next = 14;
-            return App.getInitialProps(ctx);
+          case 7:
+            _context.next = 9;
+            return Component.getInitialProps(ctx);
 
-          case 14:
+          case 9:
             props = _context.sent;
 
             if (!(res && isResSent(res))) {
-              _context.next = 17;
+              _context.next = 12;
               break;
             }
 
             return _context.abrupt("return", props);
 
-          case 17:
+          case 12:
             if (props) {
-              _context.next = 20;
+              _context.next = 15;
               break;
             }
 
-            _message = "\"".concat(getDisplayName(App), ".getInitialProps()\" should resolve to an object. But found \"").concat(props, "\" instead.");
+            _message = "\"".concat(getDisplayName(Component), ".getInitialProps()\" should resolve to an object. But found \"").concat(props, "\" instead.");
             throw new Error(_message);
 
-          case 20:
+          case 15:
             if (true) {
               if (_Object$keys(props).length === 0 && !ctx.ctx) {
-                console.warn("".concat(getDisplayName(App), " returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps"));
+                console.warn("".concat(getDisplayName(Component), " returned an empty object from `getInitialProps`. This de-optimizes and prevents automatic static optimization. https://err.sh/zeit/next.js/empty-object-getInitialProps"));
               }
             }
 
             return _context.abrupt("return", props);
 
-          case 22:
+          case 17:
           case "end":
             return _context.stop();
         }
@@ -4382,12 +4364,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_129a35c7ec57967eb265 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_e9ad7d891b372a4221cf ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_129a35c7ec57967eb265 */ "dll-reference dll_129a35c7ec57967eb265"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_e9ad7d891b372a4221cf */ "dll-reference dll_e9ad7d891b372a4221cf"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -5964,14 +5946,14 @@ module.exports = function(module) {
 
 /***/ }),
 
-/***/ "dll-reference dll_129a35c7ec57967eb265":
+/***/ "dll-reference dll_e9ad7d891b372a4221cf":
 /*!*******************************************!*\
-  !*** external "dll_129a35c7ec57967eb265" ***!
+  !*** external "dll_e9ad7d891b372a4221cf" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_129a35c7ec57967eb265;
+module.exports = dll_e9ad7d891b372a4221cf;
 
 /***/ })
 
