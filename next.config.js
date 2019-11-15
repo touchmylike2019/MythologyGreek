@@ -74,7 +74,7 @@ module.exports = withCSS({
             "/articles/zodiac/virgo": { page: "/articles/zodiac/virgo" },
         }
     },
-    assetPrefix: !debug ? '/wtprojects/wtpg24/' : '',
+    // assetPrefix: !debug ? '/wtprojects/wtpg24/' : '',
     webpack: config => {
         config.module.rules.push({
             test: /\.(jpg|png|ico|svg)$/,
